@@ -38,7 +38,7 @@ include 'connect.php' ;
 			<!-- ACCORDION ROW -->
 			<div class="row">
 					<ul class="accordion-group" id="accordion">
-						<li style="background-image: url('http://www.thedialogue.co/wp-content/uploads/2016/10/farmers-1.jpg');">
+						<li style="background-image: url('farmer1.jpg');">
 							<div class="accordion-overlay"></div>
 							<h3>Farmer's Rights</h3>
 							<section class="hidden-xs">
@@ -47,7 +47,7 @@ include 'connect.php' ;
 								</article>
 							</section>
 						</li>
-						<li class="out" style="background-image: url('https://t1.uc.ltmcdn.com/en/images/0/7/3/img_crops_grown_in_rabi_season_3370_orig.jpg');">
+						<li class="out" style="background-image: url('orig.jpg');">
 							<div class="accordion-overlay"></div>
 							<h3>Major Crops & Markets</h3>
 							<section class="hidden-xs">
@@ -57,16 +57,16 @@ include 'connect.php' ;
 								</article>
 							</section>
 						</li>
-						<li style="background-image: url('http://www.knowledgebank.irri.org/images/stories/postharvest-storage.jpg');">
+						<li style="background-image: url('storage.jpg');">
 							<div class="accordion-overlay"></div>
-							<h3>Storage Spaces</h3>
+							<h3><a href="Storage.php">Storage Spaces</a></h3>
 							<section class="hidden-xs">
 								<article>
-									<p>Have large stock of crops ?  dont have enough space to store ?.... no need to worry just click here and see the storage spaces available in your district</p>
+									<p><a href="Storage.php">Have large stock of crops ?  dont have enough space to store ?.... no need to worry just click here and see the storage spaces available in your district</a></p>
 								</article>
 							</section>
 						</li>
-						<li style="background-image: url('http://smartfarming.co.za/wp-content/uploads/2013/10/dfsgs.jpg');">
+						<li style="background-image: url('dfsgs.jpg');">
 							<div class="accordion-overlay"></div>
 							<h3>New Technolgy</h3>
 							<section class="hidden-xs">
@@ -160,10 +160,10 @@ include 'connect.php' ;
 		<div class="navigation-content">
 			<h3>Menu</h3>
       <ul class="navigation-menu">
-				<li><a href="#" class="active">Home</a></li>
-				<li><a href="#"><i class="red fa fa-circle"></i>Fertilizers & Manures</a></li>
+				<li>Your Here : <a href="#" class="active">Home</a></li>
+				<li><a href="#"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
 				<li><a href="#"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
-				<li><a href="#"><i class="orange fa fa-circle"></i>Farmer's Rights</a></li>
+				<li><a href="Storage.php"><i class="orange fa fa-circle"></i>Storage Spaces</a></li>
 				<li><a href="#"><i class="blue fa fa-circle"></i>New Technology</a></li>
 			</ul>
 			<h3>More</h3>
