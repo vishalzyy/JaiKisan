@@ -45,10 +45,10 @@
   while($row = $result->fetch_assoc()){
 
     echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
-    echo "<p>Address. :".$row["address"]."</p>";
-    echo "<p>Capacity. :".$row["capacity"]."</p>";
-    echo "<p>Sector. :".$row["sector"]."</p>";
-    echo "<p>Product Stored. :".$row["product_stored"]."</p>";
+    echo "<p><b>Address. :</b>".$row["address"]."</p>";
+    echo "<p><b>Capacity. :</b>".$row["capacity"]."</p>";
+    echo "<p><b>Sector. :</b>".$row["sector"]."</p>";
+    echo "<p><b>Product Stored. :</b>".$row["product_stored"]."</p>";
     echo "<hr>";
     echo "</div></div>";
   }
@@ -56,6 +56,12 @@
 </div>
 </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <div class="footer">
   <footer class="footer-inner">
     <div class="container">
