@@ -272,6 +272,13 @@ body {
   -moz-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
 .accordion-group li section {
   display: table;
   width: 75%;
@@ -353,9 +360,6 @@ body {
   font-weight: 100;
   color: #FFF;
   text-transform: uppercase;
-}
-.navigation-search {
-  padding: 2rem 2rem 0;
 }
 .navigation-content {
   padding: 2rem;

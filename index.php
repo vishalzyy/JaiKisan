@@ -160,7 +160,7 @@ include 'connect.php' ;
 		<div class="navigation-content">
 			<h3>Menu</h3>
       <ul class="navigation-menu">
-				<li>Your Here : <a href="#" class="active">Home</a></li>
+				<li>Your are at <a href="#" class="active">Home</a></li>
 				<li><a href="#"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
 				<li><a href="#"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
 				<li><a href="Storage.php"><i class="orange fa fa-circle"></i>Storage Spaces</a></li>
