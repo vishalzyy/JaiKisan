@@ -60,7 +60,7 @@ include 'connect.php' ;
     </datalist></td>
                 </tr>
                 <tr>  <Td></td><td>   </td></tr>
-                <tr><td colspan="2"><button class="navigation-login" type='Submit' name='district_submit' >Find</button></td></tr>
+                <tr><td colspan="2"><center><button class="navigation-login" type='Submit' name='district_submit' >Find</button></center></td></tr>
               </table>
 
             </form>
