@@ -5,7 +5,7 @@ include 'connect.php' ;
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>Jai Kisan - Home</title>
+  <title>Jai Kisan - Storage Spaces</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
@@ -37,29 +37,43 @@ include 'connect.php' ;
     <div class="row mg">
     <!-- FIRST ROW -->
     <div class="container">
-      <h1 class="text-center head red">Useful Schemes For Farmers!</h1>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="product-box">
-            <h2 class="text-center"><i class="fa fa-flask"></i></h2>
-            <h3 class="text-center">Archetype Lab</h3>
-            <p>Competition breeds innovation, fact. So while the snowboard industry might be having a bit of a hard time off the back of a terrible winter season for snow in the States and a global recession that the world economy just can’t shake, increased
-              competition for board sales is driving innovation in Snowboard design and construction. It’s a pretty good time to be a consumer right now, with brands taking the brunt of materials, logistic and labour cost inflation but having to pump more
-              and more revenue into RnD to keep their products desirable.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="product-box">
-            <h2 class="text-center"><i class="fa fa-balance-scale"></i></h2>
-            <h3 class="text-center">World’s Lightest Split</h3>
-            <p>Last February at ISPO Jeremy Jones announced the Ultracraft, a splitboard so light that it skimmed at least half a kilogram off its closest rival. Saving weight is even more important to splitboarders than it is to standard snowboarders because
-              as splitboarding folk law goes, one gram on your feet is the equivalent of three on your back. So mr Jones must be feeling a little miffed that Amplid has released a splitboard a whole 200 grams lighter before the Ultracraft even hit the shop
-              racks. The Amplid LAB Carbon split weighs in at an incredible 2.3kg.</p>
-          </div>
-        </div>
+      <h1 class="text-center head red">Storage Spaces Information</h1>
+      <br>
+          <div>
+            <form method='post' action ='storagePull.php'>
+              <table align="center">
+                <tr></tr>
+                <tr>
+                  <th>Select your district : </th><td><input list="Districts" name="districtStore">
+                    <datalist id="Districts">
+      <option value="AHMEDNAGAR">
+      <option value="AKOLA">
+      <option value="AMRAVATI">
+      <option value="AURANGABAD">
+      <option value="BEED">
+  	  <option value="BHANDARA">
+  	  <option value="DHULIA">
+  	  <option value="GONDIA">
+      <option value="JALGAON">
+    	<!-- <option value="">
+      <option value=""> -->
+    </datalist></td>
+                </tr>
+                <tr>  <Td></td><td>   </td></tr>
+                <tr><td colspan="2"><button class="navigation-login" type='Submit' name='district_submit' >Find</button></td></tr>
+              </table>
+
+            </form>
       </div>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 <div class="footer">
   <footer class="footer-inner">
