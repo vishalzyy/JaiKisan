@@ -27,7 +27,7 @@ include 'connect.php' ;
 						<div></div>
 					</nav>
 					<div class="logotype">
-						<div class="big hero">Jai Kisan</div>
+						<div class="big hero"><a href="index.php">Jai Kisan</a></div>
 					</div>
 				</div>
 			</div>
@@ -40,10 +40,10 @@ include 'connect.php' ;
 					<ul class="accordion-group" id="accordion">
 						<li style="background-image: url('farmer1.jpg');">
 							<div class="accordion-overlay"></div>
-							<h3>Farmer's Rights</h3>
+							<h3><a href="farmerrights.php">Farmer's Rights</a></h3>
 							<section class="hidden-xs">
 								<article>
-									<p>Don't know what your rights are ? Don't worry we have you covered.</p>
+									<p><a href = "farmerrights.php">Don't know what your rights are ? Don't worry we have you covered.</a></p>
 								</article>
 							</section>
 						</li>
@@ -161,7 +161,7 @@ include 'connect.php' ;
 			<h3>Menu</h3>
       <ul class="navigation-menu">
 				<li>Your are at <a href="#" class="active">Home</a></li>
-				<li><a href="#"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
+				<li><a href = "farmerrights.php"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
 				<li><a href="#"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
 				<li><a href="Storage.php"><i class="orange fa fa-circle"></i>Storage Spaces</a></li>
 				<li><a href="#"><i class="blue fa fa-circle"></i>New Technology</a></li>

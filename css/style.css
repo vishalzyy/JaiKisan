@@ -365,7 +365,7 @@ form {
 }
 .navigation-login {
   padding: 2rem;
-  line-height: 2;
+  line-height: 1;
   border: none;
   width: 50%;
   border-radius: 0;

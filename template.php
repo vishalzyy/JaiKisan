@@ -26,7 +26,7 @@ include 'connect.php' ;
 						<div></div>
 					</nav>
 					<div class="logotype">
-						<div class="big hero">Jai Kisan</div>
+						<div class="big hero"><a href="index.php">Jai Kisan</a></div>
 					</div>
 				</div>
 			</div>
@@ -113,9 +113,9 @@ include 'connect.php' ;
       <li>Your are at <a href="#" class="active">Topic Tile Here!!</a></li>
       <!-- // other Pages below -->
       <li><a href="index.php"><i class="orange fa fa-circle"></i>Home</a></li>
-      <li><a href="#"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
-      <li><a href="#"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
-      <li><a href="#"><i class="blue fa fa-circle"></i>New Technology</a></li>
+      <li><a href = "farmerrights.php"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
+      <li><a href="crops.php"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
+      <li><a href="newTech.php"><i class="blue fa fa-circle"></i>New Technology</a></li>
     </ul>
     <h3>More</h3>
     <ul class="navigation-menu">
