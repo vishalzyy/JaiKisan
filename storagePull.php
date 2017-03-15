@@ -110,7 +110,7 @@
     <h3>Menu</h3>
     <ul class="navigation-menu">
       <!-- //Topic title here -->
-      <li>Your are at <a href="#" class="active">Storage Spaces-> <?php echo $_POST['districtStore']; ?></a></li>
+      <li>Your are at <a href="Storage.php" class="active">Storage Spaces </a>-> <?php echo $_POST['districtStore']; ?></li>
       <!-- // other Pages below -->
       <li><a href="index.php"><i class="orange fa fa-circle"></i>Home</a></li>
       <li><a href="#"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>

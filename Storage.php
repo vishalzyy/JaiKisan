@@ -46,18 +46,19 @@ include 'connect.php' ;
                 <tr>
                   <th>Select your district : </th><td><input list="Districts" name="districtStore">
                     <datalist id="Districts">
-      <option value="AHMEDNAGAR">
-      <option value="AKOLA">
-      <option value="AMRAVATI">
-      <option value="AURANGABAD">
-      <option value="BEED">
-  	  <option value="BHANDARA">
-  	  <option value="DHULIA">
-  	  <option value="GONDIA">
-      <option value="JALGAON">
-    	<!-- <option value="">
-      <option value=""> -->
-    </datalist></td>
+                      <?php
+                        include 'connect.php' ;
+                          $sql_location="SELECT Distinct `district` FROM `storgae_space`";
+                          $result = $connect->query($sql_location);
+                          while($row = $result->fetch_assoc()){
+                          echo "<option value=".$row['district'].">";
+
+
+
+  }
+  echo "</datalist>"
+    ?>
+    </td>
                 </tr>
                 <tr>  <Td></td><td>   </td></tr>
                 <tr><td colspan="2"><center><button class="navigation-login" type='Submit' name='district_submit' >Find</button></center></td></tr>
