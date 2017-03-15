@@ -6,7 +6,6 @@ include 'connect.php' ;
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
   <title>Jai Kisan - Home</title>
-//Fork of an original work by Robin Savemark (http://codepen.io/robinsavemark/pen/qOJgPZ)
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
@@ -33,17 +32,20 @@ include 'connect.php' ;
 			</div>
 		</section>
 	</nav>
-	<div class="site-inner">
-		<section class="container-fluid">
-			<!-- ACCORDION ROW -->
-			<div class="row">
-			<br><br><br><br>
-			
-			
-			
-			<p>The FARMERS’ RIGHTS ACT, 2001 provides a separate chapter on farmers’ rights. The farmers’ rights contained in this chapter and elsewhere in the Act constitute nine important rights. These rights acknowledge the role of farmers in conserving varietal diversity, honour their traditional rights on seeds to promote conservation, their poor economic capability to buy seed for every sowing, their low legal literacy and their entitlement for equitable share of benefit arising from new varieties.</p>
-<h3>Farmers’ Right on Seeds</h3>
-	The farmers’ right on seeds is a traditional right enjoyed by farmers all along the
+  <div class="site-inner">
+    <section class="container-fluid">
+  <div class="row mg">
+    <!-- FIRST ROW -->
+    <div class="container">
+      <h1 class="text-center head red">Farmer's Rights</h1>
+<p>The FARMERS’ RIGHTS ACT, 2001 provides a separate chapter on farmers’ rights. The farmers’ rights contained in this chapter and elsewhere in the Act constitute nine important rights. These rights acknowledge the role of farmers in conserving varietal diversity, honour their traditional rights on seeds to promote conservation, their poor economic capability to buy seed for every sowing, their low legal literacy and their entitlement for equitable share of benefit arising from new varieties.</p>
+	  <div class="row">
+        <div >
+          <div>
+            <!-- <h2 class="text-center"><i class="fa fa-flask"></i></h2> -->
+            <!-- //Write Sub topic here -->
+            <h3 class="text">Farmers’ Right on Seeds:-</h3>
+            <p>The farmers’ right on seeds is a traditional right enjoyed by farmers all along the
 history of agriculture. This right includes the right to save the seed from one’s crop
 and use the saved seed for sowing, exchanging, sharing or selling to other farmers. It
 is fundamental to the conservation role performed by farmers. The process of
@@ -55,8 +57,15 @@ allows this right on seed to all varieties, including varieties registered under
 a protected variety in packages and containers with labels bearing its registered name.
 To further safeguard this right on the seeds of registered varieties, the Act prohibits
 use of technologies like the terminator gene technology, which destroys the germination
-capability of saved seeds .
-<h3>Farmers’ Right to Register Traditional Varieties</h3>
+capability of saved seeds.</p>
+          </div>
+        </div>
+		</div>
+		<div class="row">
+        <div >
+          <div>
+            <!-- <h2 class="text-center"><i class="fa fa-balance-scale"></i></h2> -->
+ <h3>Farmer's Right to Register Traditional Varieties:-</h3>
 The PPVFR Act allows the registration of traditional varieties or farmers’ varieties
 . Registration of the variety grants PBR on the variety,
 which allows exclusive legal right to the PBR-holding farmers to produce and market
@@ -82,8 +91,8 @@ professional breeders. The requirements of a
 farmers’ variety to qualify for registration are
 explained under Eligibility criteria for registration.
 
-<h3>Farmers’ Right for Reward and
-Recognition</h3>
+<h3>Farmer's Right for Reward and
+Recognition:-</h3>
 In recognition of the important role farmers have
 been playing for the conservation of varietal
 wealth of crop plants, the PPVFR Act has a
@@ -96,8 +105,7 @@ communities . This is provided as an
 incentive to encourage conservation undertaken
 by farming and tribal communities. Farmers conserving traditional varieties and
 wild species of crop plants are deemed eligible to receive reward and recognition.
-
-<h3>Farmers’ Right for Benefit Sharing</h3>
+<h3>Farmer's Right for Benefit Sharing:-</h3>
 Earlier sections have highlighted the important role of farmers’ varieties for breeding
 new plant varieties. Usually one or more farmers’ varieties or their derivatives are
 used as parents to breed new varieties. These farmers’ varieties could be traced to
@@ -138,7 +146,7 @@ the notifications of the PPVFR Authority. Assistance from governmental or nongov
 organizations may also help farmers in this regard.
 
 <h3>Farmers’ Right to get Compensation for the Loss suffered from
-the Registered Variety</h3>
+the Registered Variety:-</h3>
 The primary purpose of registration of a plant variety under this Act is to establish
 exclusive commercial right on the variety. Commercial demand arises from the
 capability of the variety for better agronomic performance. Some of the seed
@@ -163,7 +171,7 @@ this respect. Intensive capacity building to farmers is important for accessing 
 compensation and minimising the frivolous claims.
 
 <h3>Farmers’ Right to receive Compensation for Undisclosed use of ndisclosed use of
-Traditional Varieties</h3>
+Traditional Varieties:-</h3>
 It was earlier stated that the cause of benefit sharing arises from a declaration made
 by the breeder that the pedigree of a new variety has certain traditional varieties or
 traditional knowledge sourced from certain regions/communities. However, there
@@ -186,7 +194,7 @@ The National Gene Fund shall disburse the compensation to the party who
 made the claim. A good understanding of plant varieties and professional skill in plant
 breeding science will help in detecting many of such eligible cases for compensation.
 
-<h3>Farmers’ Right for the Seeds of Registered Varieties</h3>
+<h3>Farmers’ Right for the Seeds of Registered Varieties:-</h3>
 It was mentioned earlier that one of the objectives of the Act is to promote the
 availability of high quality seed and planting material to farmers for accelerated agricultural development. The Act tries to achieve this objective by ensuring adequate
 availability of seeds of registered varieties to farmers at reasonable cost. Access to
@@ -204,8 +212,7 @@ marketing of seed granted to the PBR-holder and transfer this right to third par
 determined by the Authority. This revoke of exclusive right is done for a period
 decided by the Authority. The third parties, who are given right to produce and market
 the seed, are required to meet the demands and supply seed at reasonable prices.
-
-<h3>Farmers’ Right for Receiving Free Services</h3>
+<h3>Farmers’ Right for Receiving Free Services:-</h3>
 Considering the poor economic capability of farmers and with a view that this
 economic weakness shall not be a hurdle for accessing farmers’ rights, the PPVFR Act
 totally exempts farmers from paying any fees . This
@@ -217,7 +224,7 @@ fees on all legal proceedings at the PVPA-Tribunal or the Intellectual Property 
 Board (IPAB) or any Court of law. This exemption, however, does not include fee on
 lawyers privately hired by farmers to represent them at the Tribunal or Appellate
 Board or Courts.
-<h3>Farmers’ Right for Protection Against Innocent Infringement</h3>
+<h3>Farmers’ Right for Protection Against Innocent Infringement:-</h3>
 All laws have penal provisions stating what constitutes an infringement and what
 punishment is to be awarded to different proven infringements. These aspects of the
 PPVFR Act are dealt under Chapter X of the Act . Under legal
@@ -232,116 +239,85 @@ tradition-bound Indian farmers and to discourage petty legal harassment to farme
 from seed companies. This highlights the importance of legal literacy to farmers on
 this Act, not only to prevent infringement proceedings against them, but also to
 create capability to access the rights provided to them.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-			
-			</div>
-			<!-- BEGIN NEW ROW AFTER ACCORDION -->
-			<div class="row mg">
-				<!-- FIRST ROW -->
-				<div class="container">
-					<h1 class="text-center head red">Useful Schemes For Farmers!</h1>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="product-box">
-								<h2 class="text-center"><i class="fa fa-gears"></i></h2>
-								<h3 class="text-center">High quality products</h3>
-								<p>Nose shaping is the new reverse camber. Blunted, pointy, asymmetric… whatever, as long as it’s not round its in-Vogue for next winter. It’s not all about aesthetics, a number of brands are increasing nose length and kick radius to increase surface
-									area and improve floatation and following the lead of last year’s K2 Ultradream, which undoubtedly borrowed the concept from 5D ski shaping. The Nitro Uberspoon and Lib Tech Speedodeeps Travis Rice are good examples of snowboards where effective
-									edge has been sacrificed for surface area.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="product-box">
-								<h2 class="text-center"><i class="fa fa-flask"></i></h2>
-								<h3 class="text-center">Archetype Lab</h3>
-								<p>Competition breeds innovation, fact. So while the snowboard industry might be having a bit of a hard time off the back of a terrible winter season for snow in the States and a global recession that the world economy just can’t shake, increased
-									competition for board sales is driving innovation in Snowboard design and construction. It’s a pretty good time to be a consumer right now, with brands taking the brunt of materials, logistic and labour cost inflation but having to pump more
-									and more revenue into RnD to keep their products desirable.</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="product-box">
-								<h2 class="text-center"><i class="fa fa-balance-scale"></i></h2>
-								<h3 class="text-center">World’s Lightest Split</h3>
-								<p>Last February at ISPO Jeremy Jones announced the Ultracraft, a splitboard so light that it skimmed at least half a kilogram off its closest rival. Saving weight is even more important to splitboarders than it is to standard snowboarders because
-									as splitboarding folk law goes, one gram on your feet is the equivalent of three on your back. So mr Jones must be feeling a little miffed that Amplid has released a splitboard a whole 200 grams lighter before the Ultracraft even hit the shop
-									racks. The Amplid LAB Carbon split weighs in at an incredible 2.3kg.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-	<div class="footer">
-		<footer class="footer-inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<h3 class="h3">About us</h3>
-						<ul class="footer-list">
-							<li><a href="#">Our story</a></li>
-							<li><a href="#">Other</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<h3 class="h3">Partners</h3>
-						<ul class="footer-list">
-							<li><a href="https://github.com/GK4444">Gaurav Kavhar</a></li>
-							<li><a href="https://github.com/NiC24">Nihal Chirayath</a></li>
-							<li><a href="https://github.com/vishalzyy">Vishal Prajapat</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<h3 class="h3">Customer support</h3>
-						<ul class="footer-list">
-							<li>Chat with us</li>
-							<li>+91 2453 352</li>
-							<li>E-mail us</li>
-              <li>subtestadd@gmail.com</li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<h3 class="h3">Socials</h3>
-						<ul class="footer-list footer-list-inline">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
+<div class="footer">
+  <footer class="footer-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="h3">About us</h3>
+          <ul class="footer-list">
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Other</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3 class="h3">Partners</h3>
+          <ul class="footer-list">
+            <li><a href="https://github.com/GK4444">Gaurav Kavhar</a></li>
+            <li><a href="https://github.com/NiC24">Nihal Chirayath</a></li>
+            <li><a href="https://github.com/vishalzyy">Vishal Prajapat</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3 class="h3">Customer support</h3>
+          <ul class="footer-list">
+            <li>Chat with us</li>
+            <li>+91 2453 352</li>
+            <li>E-mail us</li>
+            <li>subtestadd@gmail.com</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3 class="h3">Socials</h3>
+          <ul class="footer-list footer-list-inline">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </div>
-	<!-- NAVIGATION -->
-	<div class="navigation">
-		<div class="navigation-content">
-			<h3>Menu</h3>
-      <ul class="navigation-menu">
-				<li><a href="#" class="active">Home</a></li>
-				<li><a href="#"><i class="red fa fa-circle"></i>Fertilizers & Manures</a></li>
-				<li><a href="#"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
-				<li><a href="#"><i class="orange fa fa-circle"></i>Farmer's Rights</a></li>
-				<li><a href="#"><i class="blue fa fa-circle"></i>New Technology</a></li>
-			</ul>
-			<h3>More</h3>
-			<ul class="navigation-menu">
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Info</a></li>
-				<li><a href="#">Customer Service</a></li>
-			</ul>
-		</div>
-	</div>
-	</div>
+</section>
+</div>
+<!-- NAVIGATION -->
+<div class="navigation">
+  <div class="navigation-content">
+    <h3>Menu</h3>
+    <ul class="navigation-menu">
+      <!-- //Topic title here -->
+      <li>Your are at <a href="#" class="active">FARMER'S RIGHTS</a></li>
+      <!-- // other Pages below -->
+      <li><a href="index.php"><i class="orange fa fa-circle"></i>Home</a></li>
+      <li><a href="#"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
+      <li><a href="#"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
+      <li><a href="#"><i class="blue fa fa-circle"></i>New Technology</a></li>
+    </ul>
+    <h3>More</h3>
+    <ul class="navigation-menu">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Info</a></li>
+      <li><a href="#">Customer Service</a></li>
+    </ul>
+  </div>
+</div>
+</div>
 
 
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 
-    <script src="js/index.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
 </html>
