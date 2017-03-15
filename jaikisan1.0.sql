@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 14, 2017 at 04:00 PM
+-- Generation Time: Mar 15, 2017 at 10:58 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -39,7 +39,7 @@ CREATE TABLE `crops` (
 --
 
 INSERT INTO `crops` (`id`, `crop`, `info`, `msp`, `mrp`) VALUES
-(1, 'Rice', 'Climatic Requirements:\r\nIn India rice is grown under widely varying conditions of altitude and climate. Rice cultivation in India extends from 8 to35ºN latitude and from sea level to as high as 3000 meters. Rice crop needs a hot and humid climate. It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water. The average temperature required throughout the life period of the crop ranges from 21 to 37º C. Maximum temp which the crop can tolerate 400C to 42 0C.\r\n\r\nCrop Production Practices:\r\nIn India Rice is mainly grown in two types of soils i.e., (i) uplands and (ii) low lands. The method of cultivation of rice in a particular region depends largely on factors such as situation of land, type of soils, irrigation facilities, availability of labourers intensity and distribution of rainfalls. The crop of rice is grown with the following methods-\r\n(1)Dry or Semi-dry upland cultivation-\r\n    (1.1)Broadcasting the seed.\r\n    (1.2)Sowing the seed behind the                                        plough or drilling.\r\n(2)Wet or lowland cultivation-\r\n    (2.1)Transplanting in puddled fields.\r\n    (2.2)Broadcasting sprouted seeds in puddled fields.\r\n\r\nSelection of Seeds:\r\nThe use of quality seeds in cultivation of rice is an important factor to get better crop yield. Therefore, proper care has to be taken in selecting seeds of the best quality. Much of the success in raising the healthy seedlings depends on the quality of seed. Seeds intended for sowing should satisfy the following requirements-\r\n(1)The seed should belong to the proper variety, which is proposed to be grown.\r\n(2)The seed should be clean and free from obvious mixtures of other seeds.\r\n(3)The seed should be mature, well developed and plump in size.\r\n(4)The seed should be free from obvious signs of age or bad storage.\r\n(5)The seed should have a high germinating capacity.\r\n\r\nBefore sowing the seed should be treated with fungicides which protects the seed against soil-born fungi and also give a boost to the seedlings.', 2450, 5000),
+(1, 'Rice', 'Climatic Requirements:\nIn India rice is grown under widely varying conditions of altitude and climate. Rice cultivation in India extends from 8 to35ºN latitude and from sea level to as high as 3000 meters. Rice crop needs a hot and humid climate. It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water. The average temperature required throughout the life period of the crop ranges from 21 to 37º C. Maximum temp which the crop can tolerate 400C to 42 0C.\n\nCrop Production Practices:\nIn India Rice is mainly grown in two types of soils i.e., (i) uplands and (ii) low lands. The method of cultivation of rice in a particular region depends largely on factors such as situation of land, type of soils, irrigation facilities, availability of labourers intensity and distribution of rainfalls. The crop of rice is grown with the following methods-\n(1)Dry or Semi-dry upland cultivation-\n    (1.1)Broadcasting the seed.\n    (1.2)Sowing the seed behind the                                        plough or drilling.\n(2)Wet or lowland cultivation-\n    (2.1)Transplanting in puddled fields.\n    (2.2)Broadcasting sprouted seeds in puddled fields.\n\nSelection of Seeds:\nThe use of quality seeds in cultivation of rice is an important factor to get better crop yield. Therefore, proper care has to be taken in selecting seeds of the best quality. Much of the success in raising the healthy seedlings depends on the quality of seed. Seeds intended for sowing should satisfy the following requirements-\n(1)The seed should belong to the proper variety, which is proposed to be grown.\n(2)The seed should be clean and free from obvious mixtures of other seeds.\n(3)The seed should be mature, well developed and plump in size.\n(4)The seed should be free from obvious signs of age or bad storage.\n(5)The seed should have a high germinating capacity.\n\nBefore sowing the seed should be treated with fungicides which protects the seed against soil-born fungi and also give a boost to the seedlings.', 2450, 5000),
 (2, 'Urd Dal', 'Climate required in Black Gram Cultivation: \r\nThis crop prefers dry whether condition with ideal  temperature range between 25 C to 35 C. Maturity crop period should coincide with the dry  whether condition for high yield and good quality seeds, this is one of the main criteria to decide time of planting.\r\n\r\nSoil requirement: \r\nSoil in Black Gram cultivation should have neutral pH. Loam or clay loam soils are best suited soils for it’s cultivation. Adding higher organic matter in soil will result in vigorous seed production.\r\n\r\nSelection of land and it’s Preparation in Black Gram Cultivation:\r\nThe field selected for seed production must not have been sown with black gram in the previous years. This is done to avoid volunteer plants that cause admixture. Fields continuously cultivated with black gram may harbour root rot or wilt pathogen.\r\n\r\nFertilizers: Basal fertilizers application alone may not be sufficient for the seed crop. It is mandatory to provide nutrition during the heavy growth of crop and seed formation period. The nutrient needed by the rapidly developing pulse seeds are provided through foliar feeding.\r\n     Nutrient solution preparation is done by soaking the following chemicals in water (100 lit). This solution is sprayed 25 to 35 days after seed sowing followed by another spray in 40 to 50 days.\r\n\r\n', 4196, 10000),
 (3, 'Brinjal', 'Climate:\r\nThe brinjal is a warm season crop, therefore susceptible to severe frost. Low temperature during the cool season causes deformation of fruits. A long and warm growing season is desirable for successful brinjal production. Cool nights and short summers are unsuited to satisfactory yield.  A daily mean temperature of 13 to 21C is most favourable for optimum growth and yield. The brinjal seed germinate well at 25C.\r\n\r\nSoil and Field Preparation:\r\nThe brinjal can be grown in all types of soil varying from light sandy to heavy clay. Light soils are good for an early yield, while clay-loam and silt-loam are well suited for higher yield. Loam and sandy soil of normal and higher status are best suited for brinjal cultivation. The soil should fertile and well drained. Brinjal is very hardy crop and can be grown even in adverse conditions like in soil having high pH Brinjal has great adoptability \r\n     Since the crop remain in the field for a number of months. The soil should be thoroughly prepared by ploughing 4 to 5 times before transplanting the seedlings. Bulky organic manures like well rotten crowding or compost should be incorporated evenly on the soil.\r\n\r\nManure and Fertilizers:\r\nBrinjal is a heavy feeder crop. Therefore a balance application of manure and    fertilizers is very important for important for successful crop production. Further the brinjal being a long duration crop requires a good amount of manure and fertilizers. Well rotten farmyard manure or compost (200-250 q/ha) should be incorporated at the time of field preparation. The crop should be supplemented with 100-120 kg nitrogen and 50-60 kg each of phosphorus and potash hybrid requires more amount of fertilizers. Full dose of phosphorus and potash and half of N is applied at the of final field preparation before transplanting and the remaining quantity of N as urea is applied in two to three splits after 30, 45 and 60 days of transplanting in the farm of top dressing. \r\n\r\nSowing Time:\r\nThe time of sowing of seed and transplanting of seedlings varies according to the agro-climatic regions. In the plants of Northern India, there are generally two sowing season’s vez, June to July for autumn crop and November for the spring- summer crop month of April. In South India, the brinjal can be grown round the year, the main sowing being done during July to August. In the hills, the seeds are sown in March to April and seedlings are transplanted in May.\r\n\r\n\r\n\r\n', 200, 4600),
 (4, 'Banana', 'Climate:\r\nThe edible bananas are restricted to tropical or neartropical regions, roughly the area between latitudes 30°N and 30°S. Within this band, there are varied climates with different lengths of dry season and different degrees and patterns of precipitation. A suitable banana climate is a mean temperature of 80°F (26.67°C) and mean rainfall of 4 in (10 cm) per month. There should not be more than 3 months of dry season.\r\n     Cool weather and prolonged drought retard growth. Banana plants produce only one leaf per month in winter, 4 per month in summer. If low temperatures occur just at flowering time, the bud may not be able to emerge from the stem. If fruits have already formed, maturity may be delayed several months or completely suspended. If only the leaves are destroyed, the fruits will be exposed to sunburn. Smudging, by burning dry trash covered with green clippings to create smoke, can raise the temperature 2 to 4 degrees. Flooding the field in advance of a cold snap will keep the ground warm if the chill weather is brief. In Australia, bananas are planted on sunny hill sides at elevations of 200 to 1,000 ft (60 to 300 m) to avoid the cold air that settles at lower levels. Brief frosts kill the plants to the ground but do not destroy the corm. \'Dwarf Cavendish\' and the \'Red\' banana are particularly sensitive to cold, whereas the dwarf cultivar \'Walha\', or \'Kullen\', of India is successful up to 4,000 ft (1,220 m) in the outer range of the Western Ghats. \'Vella vazhai\' is extensively cultivated in the Lower Pulneys between 3,200 and 5,500 ft (975 and 1,616 m). A cooking banana, \'Plankel\', survives winters in home gardens in northern India. In South Africa, the main banana-producing area is along the southeast coast at 3,000 ft (915 m) above sea level with summer rainfall of 35 to 45 in (90-115 cm). The major part of the crop in East Africa is grown between 4,000 and 5,000 ft (1,220 and 1,524 m) and the total range extends from sea-level to 7,500 ft (2,286 m).\r\n     Wind is detrimental to banana plants. Light winds shred the leaves, interfering with metabolism; stronger winds may twist and distort the crown. Winds to 30 mph break the petioles; winds to 40 mph will topple a pseudostem that is supporting the weight of a heavy bunch unless the stem is propped, and may cause root damage in non fruiting plants that are not blown down; winds of 60 mph or over will uproot entire plantations, especially when the soil is saturated by rain. Windbreaks are often planted around banana fields to provide some protection from cold and wind. Cyclones and hurricanes are devastating and the latter were the main reason for the shift of large scale banana production from the West Indies to Central America, Colombia and Ecuador. Hail results from powerful convection currents in the tropics, especially in the spring, and does much damage to bananas.\r\n\r\nSoil:\r\nThe banana plant will grow and fruit under very poor conditions but will not flourish and be economically productive without deep, well-drained soil—loam, rocky sand, marl, red laterite, volcanic ash, sandy clay, even heavy clay—but not fine sand which holds water. Over head irrigation is said to improve the tilth of heavy clay and has made possible the use of clay soils that would never have been considered for banana culture in the past. Alluvial soils of river valleys are ideal for banana growing. Bananas prefer an acid soil but if the pH is below 5.0 lime should be applied the second year. Low pH makes bananas more susceptible to Panama disease. Where waterlogging is likely, bananas and plantains are grown on raised beds. Low, perennially wet soils require draining and dry soils require irrigation.\r\n\r\nPropagation:\r\nBanana seeds are employed for propagation only in breeding programs. Corms are customarily used for planting and Mexican studies with \'Giant Cavendish\' have shown that those over 17.5 lbs (8 kg) in weight come into bearing early and, in the first year, the bunches are longer, heavier, with more hands than those produced from smaller corms. From the second year on, the advantage disappears. Most growers prefer \"bits\" 2- to 4-lb (0.9-1.8 kg) sections of the corm. When corms are scarce, smaller sections—1 to 2 lbs (454-908 g) have been utilized and early fertilization applied to compensate for the smaller size. But in Queensland it is specified that \"bits\" of \'Dwarf Cavendish\' shall not be less than 4 x 3 x 3 in (10 x 7.5 x 7.5 cm) and \"bits\" of \'Lady Finger\' and other tall cultivars shall be not less than 5 x 5 x 3 1/2 in ( 12.5 x 12.5 x 9 cm). The corm has a number of buds, or \"eyes\", which develop into new shoots. The two upper buds are the youngest and have a pinkish tint. These develop rapidly and become vigorous plants. To obtain the \"bits\", a selected, healthy banana plant, at least 7 months old but prior to fruiting, is uprooted and cut off about 4 to 5 in (10-12.5 cm) above the corm. The outer layer of leaf bases is peeled off to expose the buds, leaving just a little to protect the buds during handling and transport. The corm is split between the 2 upper buds and trimmed with square sides, removing the lower, inferior buds and any parts affected by pests or disease, usually indicated by discoloration. Then the \"bits\" are fumigated by immersing for 20 minutes in hot water at about 130°F (54.44°C) or in a commercial nematicide solution. Sometimes it is advisable to apply a fungicide to prevent spoilage. They should then be placed in a sanitary place (away from all diseased trash) in the shade for 48 hrs before planting.\r\n     Inasmuch as \"bits\" are not often available in quantity, the second choice is transplantation of suckers. These should not be too young nor too old.\r\n     The sucker first emerges as a conical shoot which opens and releases leaves that are mostly midribs with only vestiges of blade. These juvenile leaves are called \"sword\", \"spear\", or \"arrow\", leaves. Just before the sucker produces wide leaves resembling those of the mature plant but smaller, it has sufficient corm development to be transplanted. Sometimes suckers from old, deteriorating corms have broad leaves from the outset. These are called \"water\" suckers, are insubstantial, with very little vigor, and are not desirable propagating material. \"Maiden\" suckers that have passed the \"sword\"-leaved stage and have developed broad leaves must be large to be acceptably productive. In banana trials at West Bengal, India, suckers 3 to 4 months old with well-developed rhizomes proved to be the best yielders. In comparison, small, medium, or large \"sword\" suckers develop thicker stems, and give much higher yields of marketable fruits per land parcel. \"Bits\' grow slowly at first, but in 2 years\' time they catch up to plants grown from suckers or \"butts\" and are much more economical. \"Butts\" (entire corms, or rhizomes, of mature plants), called \"bull heads\" in the Windward Islands, are best used to fill in vacancies in a plantation. For quick production, some farmers will use \"butts\" with several \"sword\" suckers attached. Very young suckers, called \"peepers\", are utilized only for establishing nurseries.\r\n     Instead of waiting for normal sucker development, multiplication has been artificially stimulated in the field by removing the soil and outer leaf sheaths covering the upper buds of the corm, packing soil around them and harvesting them when they have reached the \"sword\' sucker stage. A greenhouse technique involves cleaning and injuring a corm to induce callus formation from which many new plants will develop. As many as 180 plantlets have been derived from one corm in this manner.\r\n', 500, 5000),
@@ -60,45 +60,19 @@ INSERT INTO `crops` (`id`, `crop`, `info`, `msp`, `mrp`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `crop_table`
+-- Table structure for table `major_crops`
 --
 
-CREATE TABLE `crop_table` (
+CREATE TABLE `major_crops` (
   `id` int(11) NOT NULL,
-  `Crop` varchar(255) NOT NULL,
-  `state` varchar(255) NOT NULL,
-  `quantity` int(11) NOT NULL
+  `district` varchar(255) NOT NULL,
+  `sub_district` varchar(255) NOT NULL,
+  `m1` varchar(255) NOT NULL,
+  `m2` varchar(255) NOT NULL,
+  `m3` varchar(255) NOT NULL,
+  `m4` varchar(255) NOT NULL,
+  `m5` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `crop_table`
---
-
-INSERT INTO `crop_table` (`id`, `Crop`, `state`, `quantity`) VALUES
-(1, 'cotton', 'Gujrat', 11089),
-(2, 'cotton', 'Maharashtra', 7019),
-(3, 'cotton', 'Andra Pradesh', 6641),
-(4, 'cotton', 'Haryana', 2300),
-(5, 'cotton', 'Karnataka', 2200),
-(6, 'cotton', 'Madhya Pradesh', 1750),
-(7, 'cotton', 'Rajasthan', 1600),
-(8, 'cotton ', 'Punjab', 1600),
-(9, 'cotton', 'Tamil Nadu', 786),
-(10, 'cotton', 'Orrisa', 400),
-(11, 'Tea', 'Himachal Pradesh', 400),
-(12, 'Tea', 'Assam', 58800),
-(13, 'Tea', 'Sikkim', 400),
-(14, 'Tea', 'Meghalaya', 400),
-(15, 'Tea', 'Kerala', 23200),
-(16, 'coffee', 'Karnataka', 5822),
-(17, 'coffee', 'Tamil Nadu', 410),
-(18, 'coffee', 'Kerala', 1722),
-(19, 'coconut', 'Kerala', 332900),
-(20, 'coconut', 'Karnataka', 349500),
-(21, 'coconut', 'Tamil Nadu', 470300),
-(22, 'coconut', 'Andra Pradesh', 99400),
-(23, 'coconut', 'Orrisa', 22000),
-(24, 'coconut', 'West Bengal', 25200);
 
 -- --------------------------------------------------------
 
@@ -202,9 +176,9 @@ ALTER TABLE `crops`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `crop_table`
+-- Indexes for table `major_crops`
 --
-ALTER TABLE `crop_table`
+ALTER TABLE `major_crops`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -223,10 +197,10 @@ ALTER TABLE `storgae_space`
 ALTER TABLE `crops`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
--- AUTO_INCREMENT for table `crop_table`
+-- AUTO_INCREMENT for table `major_crops`
 --
-ALTER TABLE `crop_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+ALTER TABLE `major_crops`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `storgae_space`
 --
