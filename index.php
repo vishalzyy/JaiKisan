@@ -49,10 +49,10 @@ include 'connect.php' ;
 						</li>
 						<li class="out" style="background-image: url('orig.jpg');">
 							<div class="accordion-overlay"></div>
-							<h3>Major Crops & Markets</h3>
+							<h3><a href="crops.php">Major Crops & Markets</a></h3>
 							<section class="hidden-xs">
 								<article>
-									<p>Know the crops suitable for your land. Choosing the crops according to your region/land type and market will help you earn maximum profit.
+									<p><a href="crops.php">Know the crops suitable for your land. Choosing the crops according to your region/land type and market will help you earn maximum profit.</a>
 									</p>
 								</article>
 							</section>
@@ -68,10 +68,15 @@ include 'connect.php' ;
 						</li>
 						<li style="background-image: url('dfsgs.jpg');">
 							<div class="accordion-overlay"></div>
+
 							<h3><a href="newTech.php">New Technolgy</h3>
 							<section class="hidden-xs">
 								<article>
 									<p><a href="newTech.php">Find technology which help you increase productivity and minimize your effort.</p>
+		<h3><a href="newTech.php">New Technolgy</a></h3>
+							<section class="hidden-xs">
+								<article>
+									<p><a href="newTech.php">Find technology which help you increase productivity and minimize your effort.</a></p>
 								</article>
 							</section>
 						</li>
@@ -162,9 +167,9 @@ include 'connect.php' ;
       <ul class="navigation-menu">
 				<li>Your are at <a href="#" class="active">Home</a></li>
 				<li><a href = "farmerrights.php"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
-				<li><a href="#"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
+				<li><a href="crops.php"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
 				<li><a href="Storage.php"><i class="orange fa fa-circle"></i>Storage Spaces</a></li>
-				<li><a href="#"><i class="blue fa fa-circle"></i>New Technology</a></li>
+				<li><a href="newTech.php"><i class="blue fa fa-circle"></i>New Technology</a></li>
 			</ul>
 			<h3>More</h3>
 			<ul class="navigation-menu">
