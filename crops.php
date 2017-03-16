@@ -37,26 +37,51 @@ include 'connect.php' ;
   <div class="row mg">
     <!-- FIRST ROW -->
     <div class="container">
-      <h1 class="text-center head red">Topic Header here</h1>
-      <form method='post' action ='storagePull.php'>
-        <table align="center">
-          <tr></tr>
-          <tr>
-            <th>Select your district : </th><td><input list="Districts" name="districtStore">
-              <datalist id="Districts">
-                <?php
+
+<?php
+
+if(!isset($_POST["districtS"])){
+  echo "<h1 class='text-center head red'>Select your District here</h1>";
+    echo "<form method='post' action =''>";
+      echo  "<table align='center'>";
+        echo "<tr></tr><tr>";
+        echo    "<th>Select your district : </th><td><input list='Districts' name='districtS'>";
+          echo    "<datalist id='Districts'>";
+                // <?php
+                // if(!isset($_POST["districtS"])){
                   include 'connect.php' ;
-                    $sql_location="SELECT Distinct `district` FROM `storgae_space`";
-                    $result = $connect->query($sql_location);
+                    $sql_district="SELECT Distinct `district` FROM `major_crops`";
+                    $result = $connect->query($sql_district);
                     while($row = $result->fetch_assoc()){
                     echo "<option value=".$row['district'].">";}
                     echo "</datalist>";
+echo "</td></tr>" ;
 
-?>  </td>
-              </tr>
-              <tr>  <Td></td><td>   </td></tr>
-              <tr><td colspan="2"><center><button class="navigation-login" type='Submit' name='district_submit' >Find</button></center></td></tr>
-            </table>
+  echo "<tr><td colspan='2'><center><button class='navigation-login' type='Submit' name='district_submit' >Proceed to find sub District</button></center></td></tr>";
+      echo  "</table>";
+      echo   "</form> ";}?>
+      <?php
+
+
+                include 'connect.php';
+
+                if(isset($_POST["districtS"])){
+echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
+                  $dist = $_POST["districtS"] ;
+                  echo "<form method='post' action =''";
+                      echo  "<tr>" ;
+                  echo "<center><p>You have selected $dist District</p></center>";
+                  echo "<table><tr><th>Select your Sub District:</th><td><input list='subDistricts' name='subDistrict'>";
+                  echo "<datalist id='subDistricts'>";
+                  $sql_subDistrict="SELECT DISTINCT `sub_district` FROM `major_crops` WHERE `district` LIKE '$dist'";
+                  $result = $connect->query($sql_subDistrict);
+                  while($row = $result->fetch_assoc()){
+                  echo "<option value=".$row['sub_district'].">";}
+                  echo "</datalist></td></tr>";
+                  echo "<tr><td colspan='2'><center><button class='navigation-login' type='Submit' name='subdistrict_submit' >Proceed to find crops</button></center></td></tr>";
+                  echo "</table>";
+                }
+                ?>
 
     </form>
   </div>
