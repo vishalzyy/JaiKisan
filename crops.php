@@ -10,19 +10,6 @@ include 'connect.php' ;
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
-      <script type="text/javascript" src="jquery.js"></script><script type="text/javascript">
-      			$(document).ready(district_selectbox_change);
-      			function district_selectbox_change(){
-      				$('#district').change(update_sub_list);
-      			}
-      			function update_sub_list(){
-      				var district=$('#district').attr('value');
-      				$.get('get_list.php?district='+district, show_sub);
-      			}
-      			function show_sub(sub){
-      				$('#sub_list').html(sub);
-      			}
-      </script>
 
 
 </head>
@@ -50,37 +37,43 @@ include 'connect.php' ;
   <div class="row mg">
     <!-- FIRST ROW -->
     <div class="container">
-      <h1 class="text-center head red">Select your District here</h1>
-      <!-- <form method='post' action ='<php $_PHP_SELF ?>'>
-        <table align="center">
-          <tr></tr>
-          <tr>
-            <th>Select your district : </th><td><input list="Districts" name="districtS">
-              <datalist id="Districts">
-                <php
+
+<?php
+
+if(!isset($_POST["districtS"])){
+  echo "<h1 class='text-center head red'>Select your District here</h1>";
+    echo "<form method='post' action =''>";
+      echo  "<table align='center'>";
+        echo "<tr></tr><tr>";
+        echo    "<th>Select your district : </th><td><input list='Districts' name='districtS'>";
+          echo    "<datalist id='Districts'>";
+                // <?php
+                // if(!isset($_POST["districtS"])){
                   include 'connect.php' ;
                     $sql_district="SELECT Distinct `district` FROM `major_crops`";
                     $result = $connect->query($sql_district);
                     while($row = $result->fetch_assoc()){
                     echo "<option value=".$row['district'].">";}
                     echo "</datalist>";
-?>  </td>
-              </tr>
+echo "</td></tr>" ;
 
-              <tr><td colspan="2"><center><button class="navigation-login" type='Submit' name='district_submit' >Proceed to find sub District</button></center></td></tr>
-            </table>
-          </form>
-          <form method='post' action ='<php $_PHP_SELF ?>'
-                <tr><php
+  echo "<tr><td colspan='2'><center><button class='navigation-login' type='Submit' name='district_submit' >Proceed to find sub District</button></center></td></tr>";
+      echo  "</table>";
+      echo   "</form> ";}?>
+      <?php
+
+
                 include 'connect.php';
 
-                if( $_POST["districtS"]){
-
+                if(isset($_POST["districtS"])){
+echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
                   $dist = $_POST["districtS"] ;
-                  echo "<p>$dist</p>";
+                  echo "<form method='post' action =''";
+                      echo  "<tr>" ;
+                  echo "<center><p>You have selected $dist District</p></center>";
                   echo "<table><tr><th>Select your Sub District:</th><td><input list='subDistricts' name='subDistrict'>";
                   echo "<datalist id='subDistricts'>";
-                  $sql_subDistrict="SELECT DISTINCT `sub_district` FROM `major_crops` WHERE `district` LIKE '$dist''";
+                  $sql_subDistrict="SELECT DISTINCT `sub_district` FROM `major_crops` WHERE `district` LIKE '$dist'";
                   $result = $connect->query($sql_subDistrict);
                   while($row = $result->fetch_assoc()){
                   echo "<option value=".$row['sub_district'].">";}
@@ -89,24 +82,6 @@ include 'connect.php' ;
                   echo "</table>";
                 }
                 ?>
-
-    </form> -->
-    <form>
-    <table>
-      <tr>
-        <th>Select your district</th>
-        <td>
-    		<select name="district" id="district">
-    		<option value=""> -- please choose -- </option>
-    		<option value="THANE">THANE</option>
-    		<option value="PUNE">PUNE</option>
-    		</select>
-      </td>
-      </tr>
-      </table>
-        <br>
-    		<div id="sub_list">
-    		</div>
 
     </form>
   </div>
