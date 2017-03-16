@@ -69,14 +69,13 @@ include 'connect.php' ;
 						<li style="background-image: url('dfsgs.jpg');">
 							<div class="accordion-overlay"></div>
 
-<<<<<<< HEAD
 							<h3><a href="newTech.php">New Technolgy</h3>
 							<section class="hidden-xs">
 								<article>
 									<p><a href="newTech.php">Find technology which help you increase productivity and minimize your effort.</a></p>
 
 								</article>
->>>>>>> 9b7379b22ba06727efff4fb2d81ca126625a1222
+
 							</section>
 						</li>
 					</ul>
@@ -85,35 +84,36 @@ include 'connect.php' ;
 			<div class="row mg">
 				<!-- FIRST ROW -->
 				<div class="container">
-					<h1 class="text-center head red">Government Schemes For Farmers!</h1>
+					<h1 class="text-center head red">Some Helpful Schemes For Farmers!</h1>
 					<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-box">
 								<h2 class="text-center"><i class="fa fa-gears"></i></h2>
 								<h3 class="text-center"><a href="http://dahd.nic.in">Rashtriya Gokul Mission</a></h3>
-								<p><br>Launched: ‎16 December 2014<br>
-Main Objective: To conserve and develop indigenous bovine breeds.<br>
-Rashtriya Gokul Mission aims to conserve and develop indigenous breeds in a focused and scientific manner. It is a focussed project under National Programme for Bovine Breeding and Dairy Development, with an outlay of Rs 500 crore during the 12th Five Year Plan.</p>
+								<p><br><b>Launched</b>: ‎16 December 2014<br>
+<b>Main Objective</b>: To conserve and develop indigenous bovine breeds.<br>
+Rashtriya Gokul Mission aims to conserve and develop indigenous breeds in a focused and scientific manner. It is a focussed project under National Programme for Bovine Breeding and Dairy Development, with an outlay of Rs 500 crore during the 12th Five Year Plan.
+<br><b><a href="http://dahd.nic.in">Click here for more info</a></b></p>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-box">
 								<h2 class="text-center"><i class="fa fa-flask"></i></h2>
 								<h3 class="text-center"><a href="http://www.soilhealth.dac.gov.in">Soil Health Card Scheme</a></h3>
-								<p><br>Launched: 17 February 2015<br>
-Main Objective: To help farmers to improve productivity from their farms by letting them know about nutrient/fertilizer requirements for their farms.<br>
+								<p><br><b>Launched</b>: 17 February 2015<br>
+<b>Main Objective</b>: To help farmers to improve productivity from their farms by letting them know about nutrient/fertilizer requirements for their farms.<br>
 The soil health card studies and reviews the health of soil or rather we can say a complete evaluation of the quality of soil right from its functional characteristics, to water and nutrients content and other biological properties. It will also contain corrective measures that a farmer should adopt to obtain a better yield.
-</p>
+<br><b><a href="http://www.soilhealth.dac.gov.in">Click here for more info</a></b></p>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="product-box">
 								<h2 class="text-center"><i class="fa fa-balance-scale"></i></h2>
 								<h3 class="text-center"><a href="http://www.nsiindia.gov.in">Kisan Vikas Patra</a></h3>
-								<p><br>Launched: 3 March 2015 (Re-Launched)<br>
-Main Objective: To provide safe and secure investment avenues to the small investors.<br>
+								<p><br><b>Launched</b>: 3 March 2015 (Re-Launched)<br>
+<b>Main Objective</b>: To provide safe and secure investment avenues to the small investors.<br>
 Kisan Vikas Patra is an investment scheme wherein the invested money will get doubled in 8 years and 4 months. However, investors would not get any tax benefit for their investment in Kisan Vikas Patra unlike in PPF. The Kisan Vikas Patra certificates would be available in the denominations of Rs 1,000, 5,000, 10,000 and 50,000 and there is no upper limit on investment in KVPs.
-</p>
+<br><b><a href="http://www.nsiindia.gov.in">Click here for more info</a></b></p>
 							</div>
 						</div>
 					</div>
