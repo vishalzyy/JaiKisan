@@ -38,25 +38,25 @@ include 'connect.php' ;
     <!-- FIRST ROW -->
     <div class="container">
       <h1 class="text-center head red">New Technologies in Farming</h1><br>
-          <div>
-            <h3 class="text"><a href="http://www.barrix.in/">1. Barrix Ago Sciences</h3><br>
-			<img src="1.jpg" alt="Barrix Ago Sciences" style="vertical-align:middle" >
-            <br><p>The Bangalore-based startup offers eco-friendly crop protection methods after much research on products that support organic farming to increase crop produce and quality with minimal expenditure.
+         <center> <div>
+            <h2 class="text"><a href="http://www.barrix.in/">1. Barrix Ago Sciences</a></h2><br>
+			<center><img src="1.jpg" alt="Barrix Ago Sciences" style="vertical-align:middle" ></center>
+            <p><center>The Bangalore-based startup offers eco-friendly crop protection methods after much research on products that support organic farming to increase crop produce and quality with minimal expenditure.
 <br><br>
 Products:<br>Barrix Catch Fruit and Fly Lure + trap: Toxic pesticides contaminate water, soil and leave behind harmful residue, besides being expensive. Barrix’s pheromone-based pest control traps have artificially synthesised smelling agents that attracts and traps pests. Instead of eating the crops, the pests are attracted to the pheromones in the traps.
 Fly pest sticky sheet: Barrix uses bright yellow and blue coloured recyclable sheets of wavelengths between 500 nm to 600 nm, proven to effectively attract and trap at least 19 high-risk pests from a long distance.
-</p>
+</center></p>
           </div>
 		   <div>
-            <h3 class="text"><a href="http://www.anulekh.com/">2. Anulek Agrotech</h3><br>
+           <center> <h2 class="text"><a href="http://www.anulekh.com/">2. Anulek Agrotech</a></h2><br></center>
 			<img src="2.jpg" alt="Anulek Agrotech" style="vertical-align:middle" >
-            <br><p>Set up by Mumbai-based entrepreneurs, Anulekh focuses on increasing soil fertility to achieve higher agricultural productivity and crop yield with lower resource use.
+            <p><center>Set up by Mumbai-based entrepreneurs, Anulekh focuses on increasing soil fertility to achieve higher agricultural productivity and crop yield with lower resource use.
 <br><br>
 Products:<br>BIOSAT: BIOSAT (Biochar based organic Soil Amendment Technology), a soil additive, is made of biochar mixed with different organic nutrients. The product preserves soil fertility, traps carbon emissions, maintains the topsoil strength and increases crop production, thus reducing dependency on chemical fertilizers.
-</p>
+</center></p>
           </div>
 		  <div>
-            <h3 class="text"><a href="http://mitraweb.in/">3. Mitra</h3><br>
+            <h2 class="text"><a href="http://mitraweb.in/">3. Mitra</a></h2><br>
 			<img src="3.jpg" alt="Mitra" style="vertical-align:middle" >
             <br><p>A Nashik-based startup, MITRA (Machines, Information, Technology, Resources for Agriculture) aims to improve mechanization at horticulture farms with the use of R&D and high quality farm equipment.
 <br><br>
@@ -64,7 +64,7 @@ Products:<br>Air blast sprayers: Developed for fruits and vegetables in general,
 </p>
           </div>
 		    <div>
-            <h3 class="text"><a href="http://cropin.co.in/">4. CropIn Technology Solutions</h3><br>
+            <h2 class="text"><a href="http://cropin.co.in/">4. CropIn Technology Solutions</a></h2><br>
 			<img src="4.png" alt="CropIn Technology Solutions" style="vertical-align:middle" >
             <br><p>A farming technology solutions startup founded by a Bangalore software engineer, it provides agri businesses the technology and expertise to create a smarter and safer food supply for consumers around the world.
 <br><br>
@@ -72,7 +72,7 @@ Products:<br>Air blast sprayers: Developed for fruits and vegetables in general,
 </p>
           </div>
 		     	    <div>
-            <h3 class="text"><a href="http://www.eruvaka.com/">5. Eruvaka Technologies</h3><br>
+            <h2 class="text"><a href="http://www.eruvaka.com/">5. Eruvaka Technologies</a></h2><br>
 			<img src="5.jpg" alt="5. Eruvaka Technologies" style="vertical-align:middle" >
             <br><p>An organisation based in Vijayawada, Andhra Pradesh, its mission is to accelerate the use of technology in aquaculture, an area where farmers face problems due to unavailability of adequate technology to measure and control water health.
 			<br><br>
@@ -80,7 +80,7 @@ Products:<br>Eruvaka Technologies, to help farmers monitor aquaculture ponds, de
 </p>
           </div>
 		    <div>
-            <h3 class="text"><a href="http://www.skymetweather.com/corporate/">6. Skymet</h3><br>
+            <h2 class="text"><a href="http://www.skymetweather.com/corporate/">6. Skymet</a></h2><br>
 			<img src="6.png" alt="6. Skymet" style="vertical-align:middle" >
             <br><p>Skymet is India’s largest weather monitoring and agri-risk solutions company. According to their website, they are the experts in measuring, predicting, and limiting climate risk to agriculture, thus reducing losses incurred due to bad weather conditions.
 			<br><br>
@@ -89,7 +89,7 @@ Products:<br>Launched to aid farmers, Skymet’s weather website offers services
           </div>
 		         
 		    <div>
-            <h3 class="text"><a href="https://www.ekgaon.com/index.php">7. Ekgaon </h3><br>
+            <h2 class="text"><a href="https://www.ekgaon.com/index.php">7. Ekgaon </a></h2><br>
 			<img src="7.jpg" alt="7. Ekgaon" style="vertical-align:middle" >
             <br><p>A Gujarat-based venture started in 2001, Ekgaon Technologies is an IT based network integrator that provides a technology platform and offers a range of services to farmers in rural areas including financial, agricultural inputs and government assistance.
 			<br><br>
@@ -100,7 +100,7 @@ Products:<br>Financial: A mobile phone enabled financial services delivery platf
           </div>
 		       
 		    <div>
-            <h3 class="text"><a href="http://www.digitalgreen.org/">8. Digital Green</h3><br>
+            <h2 class="text"><a href="http://www.digitalgreen.org/">8. Digital Green</a></h2><br>
 			<img src="8.jpg" alt="8. Digital Green" style="vertical-align:middle" >
             <br><p>development organisation that focuses on training farmers to make and show short videos where they record their problems, share solutions and highlight success stories as community engagement to improve lives of rural communities across South Asia and Sub-Saharan Africa.
 			<br><br>
@@ -110,7 +110,7 @@ Products:<br>It uses technology-enabled behaviour change communication that is c
           </div>
 		        
 		    <div>
-            <h3 class="text"><a href="http://www.frontalrain.com/">9. FrontalRain Technologies</h3><br>
+            <h2 class="text"><a href="http://www.frontalrain.com/">9. FrontalRain Technologies</a></h2><br>
 			<img src="9.png" alt="9. FrontalRain Technologies" style="vertical-align:middle" >
             <br><p>The Bangalore-based agri-tech startup seeks to deliver affordable advanced technology solutions for emerging companies and take technology to remote corners of the country.
 			<br><br>
@@ -119,13 +119,13 @@ Products:<br>The company’s offering Rain+, according to their website, is a co
           </div>
 		        
 		    <div>
-            <h3 class="text"><a href="http://agrostar.in/">10. Agrostar </h3><br>
+            <h2 class="text"><a href="http://agrostar.in/">10. Agrostar </a></h2><br>
 			<img src="10.jpg" alt="10. Agrostar " style="vertical-align:middle" >
             <br><p>A Pune-based ‘direct to farmer’ m-commerce platform, Agrostar strives to provide quality agro inputs at the farmers’ doorstep.
 			<br><br>
 Products:<br>AgroStar enables farmers to procure a range of agricultural goods such as seeds, crop nutrition, crop protection and agri-hardware products by simply giving a missed call on the company’s 1800 number or through their mobile app to eliminate unavailability of products, substandard products, duplication and adulteration.
 </p>
-          </div>
+          </div></center>
         
 		</div>
       </div>
@@ -137,14 +137,14 @@ Products:<br>AgroStar enables farmers to procure a range of agricultural goods s
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h3 class="h3">About us</h3>
+          <h2 class="h2">About us</h2>
           <ul class="footer-list">
             <li><a href="#">Our story</a></li>
             <li><a href="#">Other</a></li>
           </ul>
         </div>
         <div class="col-md-3">
-          <h3 class="h3">Partners</h3>
+          <h2 class="h2">Partners</h2>
           <ul class="footer-list">
             <li><a href="https://github.com/GK4444">Gaurav Kavhar</a></li>
             <li><a href="https://github.com/NiC24">Nihal Chirayath</a></li>
@@ -152,7 +152,7 @@ Products:<br>AgroStar enables farmers to procure a range of agricultural goods s
           </ul>
         </div>
         <div class="col-md-3">
-          <h3 class="h3">Customer support</h3>
+          <h2 class="h2">Customer support</h2>
           <ul class="footer-list">
             <li>Chat with us</li>
             <li>+91 2453 352</li>
@@ -161,7 +161,7 @@ Products:<br>AgroStar enables farmers to procure a range of agricultural goods s
           </ul>
         </div>
         <div class="col-md-3">
-          <h3 class="h3">Socials</h3>
+          <h2 class="h2">Socials</h2>
           <ul class="footer-list footer-list-inline">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -177,7 +177,7 @@ Products:<br>AgroStar enables farmers to procure a range of agricultural goods s
 <!-- NAVIGATION -->
 <div class="navigation">
   <div class="navigation-content">
-    <h3>Menu</h3>
+    <h2>Menu</h2>
     <ul class="navigation-menu">
       <!-- //Topic title here -->
       <li>Your are at <a href="#" class="active">New Technology</a></li>
@@ -185,9 +185,9 @@ Products:<br>AgroStar enables farmers to procure a range of agricultural goods s
       <li><a href="index.php"><i class="orange fa fa-circle"></i>Home</a></li>
       <li><a href = "farmerrights.php"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
       <li><a href="crops.php"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
-      <li><a href="newTech.php"><i class="blue fa fa-circle"></i>New Technology</a></li>
+      <li><a href="storage.php"><i class="blue fa fa-circle"></i>Storage Spaces</a></li>
     </ul>
-    <h3>More</h3>
+    <h2>More</h2>
     <ul class="navigation-menu">
       <li><a href="#">About Us</a></li>
       <li><a href="#">Contact</a></li>
