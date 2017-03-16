@@ -72,12 +72,7 @@ include 'connect.php' ;
 							<h3><a href="newTech.php">New Technolgy</h3>
 							<section class="hidden-xs">
 								<article>
-									<p><a href="newTech.php">Find technology which help you increase productivity and minimize your effort.</p>
-		<h3><a href="newTech.php">New Technolgy</a></h3>
-							<section class="hidden-xs">
-								<article>
 									<p><a href="newTech.php">Find technology which help you increase productivity and minimize your effort.</a></p>
-								</article>
 							</section>
 						</li>
 					</ul>

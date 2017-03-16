@@ -68,7 +68,7 @@ echo "</td></tr>" ;
                 if(isset($_POST["districtS"])){
 echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
                   $dist = $_POST["districtS"] ;
-                  echo "<form method='post' action =''";
+                  echo "<form method='post' action ='cropsInfo.php'";
                       echo  "<tr>" ;
                   echo "<center><p>You have selected $dist District</p></center>";
                   echo "<table><tr><th>Select your Sub District:</th><td><input list='subDistricts' name='subDistrict'>";
