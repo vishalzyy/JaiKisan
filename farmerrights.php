@@ -5,7 +5,7 @@ include 'connect.php' ;
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>Jai Kisan - Home</title>
+  <title>JK - Farmer Rights</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
@@ -38,13 +38,13 @@ include 'connect.php' ;
     <!-- FIRST ROW -->
     <div class="container">
       <h1 class="text-center head red">Farmer's Rights</h1>
-<p>The FARMERS’ RIGHTS ACT, 2001 provides a separate chapter on farmers’ rights. The farmers’ rights contained in this chapter and elsewhere in the Act constitute nine important rights. These rights acknowledge the role of farmers in conserving varietal diversity, honour their traditional rights on seeds to promote conservation, their poor economic capability to buy seed for every sowing, their low legal literacy and their entitlement for equitable share of benefit arising from new varieties.</p>
+<p>The FARMER'S RIGHTS ACT, 2001 provides a separate chapter on farmer's rights. The farmer's rights contained in this chapter and elsewhere in the Act constitute nine important rights. These rights acknowledge the role of farmers in conserving varietal diversity, honour their traditional rights on seeds to promote conservation, their poor economic capability to buy seed for every sowing, their low legal literacy and their entitlement for equitable share of benefit arising from new varieties.</p>
 	  <div class="row">
         <div >
           <div>
             <!-- <h2 class="text-center"><i class="fa fa-flask"></i></h2> -->
             <!-- //Write Sub topic here -->
-            <h3 class="text">Farmers’ Right on Seeds:-</h3>
+            <h3 class="text">Farmer's Right on Seeds:-</h3>
             <p>The farmers’ right on seeds is a traditional right enjoyed by farmers all along the
 history of agriculture. This right includes the right to save the seed from one’s crop
 and use the saved seed for sowing, exchanging, sharing or selling to other farmers. It
@@ -66,7 +66,7 @@ capability of saved seeds.</p>
           <div>
             <!-- <h2 class="text-center"><i class="fa fa-balance-scale"></i></h2> -->
  <h3>Farmer's Right to Register Traditional Varieties:-</h3>
-The PPVFR Act allows the registration of traditional varieties or farmers’ varieties
+The PPVFR Act allows the registration of traditional varieties or farmer's varieties
 . Registration of the variety grants PBR on the variety,
 which allows exclusive legal right to the PBR-holding farmers to produce and market
 its seed . Farmers are awarded PBR by the Act on their
@@ -107,7 +107,7 @@ by farming and tribal communities. Farmers conserving traditional varieties and
 wild species of crop plants are deemed eligible to receive reward and recognition.
 <h3>Farmer's Right for Benefit Sharing:-</h3>
 Earlier sections have highlighted the important role of farmers’ varieties for breeding
-new plant varieties. Usually one or more farmers’ varieties or their derivatives are
+new plant varieties. Usually one or more farmer's varieties or their derivatives are
 used as parents to breed new varieties. These farmers’ varieties could be traced to
 have been contributed by one or more farming or tribal communities. It is also
 possible that the new variety that is registered under the Act has become popular
@@ -145,7 +145,7 @@ be strengthened by vigilant farmers’ associations and panchayats by regularly 
 the notifications of the PPVFR Authority. Assistance from governmental or nongovernmental
 organizations may also help farmers in this regard.
 
-<h3>Farmers’ Right to get Compensation for the Loss suffered from
+<h3>Farmer's Right to get Compensation for the Loss suffered from
 the Registered Variety:-</h3>
 The primary purpose of registration of a plant variety under this Act is to establish
 exclusive commercial right on the variety. Commercial demand arises from the
@@ -170,7 +170,7 @@ individual farmers. The PPVFR Rules are not very explicit to be helpful to farme
 this respect. Intensive capacity building to farmers is important for accessing legitimate
 compensation and minimising the frivolous claims.
 
-<h3>Farmers’ Right to receive Compensation for Undisclosed use of ndisclosed use of
+<h3>Farmer's Right to receive Compensation for Undisclosed use of ndisclosed use of
 Traditional Varieties:-</h3>
 It was earlier stated that the cause of benefit sharing arises from a declaration made
 by the breeder that the pedigree of a new variety has certain traditional varieties or
@@ -194,7 +194,7 @@ The National Gene Fund shall disburse the compensation to the party who
 made the claim. A good understanding of plant varieties and professional skill in plant
 breeding science will help in detecting many of such eligible cases for compensation.
 
-<h3>Farmers’ Right for the Seeds of Registered Varieties:-</h3>
+<h3>Farmer's Right for the Seeds of Registered Varieties:-</h3>
 It was mentioned earlier that one of the objectives of the Act is to promote the
 availability of high quality seed and planting material to farmers for accelerated agricultural development. The Act tries to achieve this objective by ensuring adequate
 availability of seeds of registered varieties to farmers at reasonable cost. Access to
@@ -212,7 +212,7 @@ marketing of seed granted to the PBR-holder and transfer this right to third par
 determined by the Authority. This revoke of exclusive right is done for a period
 decided by the Authority. The third parties, who are given right to produce and market
 the seed, are required to meet the demands and supply seed at reasonable prices.
-<h3>Farmers’ Right for Receiving Free Services:-</h3>
+<h3>Farmer's Right for Receiving Free Services:-</h3>
 Considering the poor economic capability of farmers and with a view that this
 economic weakness shall not be a hurdle for accessing farmers’ rights, the PPVFR Act
 totally exempts farmers from paying any fees . This
@@ -224,7 +224,7 @@ fees on all legal proceedings at the PVPA-Tribunal or the Intellectual Property 
 Board (IPAB) or any Court of law. This exemption, however, does not include fee on
 lawyers privately hired by farmers to represent them at the Tribunal or Appellate
 Board or Courts.
-<h3>Farmers’ Right for Protection Against Innocent Infringement:-</h3>
+<h3>Farmer's Right for Protection Against Innocent Infringement:-</h3>
 All laws have penal provisions stating what constitutes an infringement and what
 punishment is to be awarded to different proven infringements. These aspects of the
 PPVFR Act are dealt under Chapter X of the Act . Under legal
@@ -268,7 +268,7 @@ create capability to access the rights provided to them.
           <h3 class="h3">Customer support</h3>
           <ul class="footer-list">
             <li>Chat with us</li>
-            <li>+91 2453 352</li>
+            <li>+91 86930 06986</li>
             <li>E-mail us</li>
             <li>subtestadd@gmail.com</li>
           </ul>

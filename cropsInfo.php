@@ -136,7 +136,7 @@
           <h3 class="h3">Customer support</h3>
           <ul class="footer-list">
             <li>Chat with us</li>
-            <li>+91 2453 352</li>
+            <li>+91 86930 06986</li>
             <li>E-mail us</li>
             <li>subtestadd@gmail.com</li>
           </ul>

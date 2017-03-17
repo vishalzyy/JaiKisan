@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>Jai Kisan - Home</title>
+  <title>JK - Storage Spaces Info.</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
@@ -85,7 +85,7 @@
           <h3 class="h3">Customer support</h3>
           <ul class="footer-list">
             <li>Chat with us</li>
-            <li>+91 2453 352</li>
+            <li>+91 86930 06986</li>
             <li>E-mail us</li>
             <li>subtestadd@gmail.com</li>
           </ul>
