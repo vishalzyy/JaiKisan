@@ -42,10 +42,10 @@ include 'connect.php' ;
 
 if(!isset($_POST["districtS"])){
   echo "<h1 class='text-center head red'>Select your District here</h1>";
-    echo "<form method='post' action =''>";
+    echo "<form name='selection' method='post' action ='' >";
       echo  "<table align='center'>";
         echo "<tr></tr><tr>";
-        echo    "<th>Select your district : </th><td><input list='Districts' name='districtS'>";
+        echo    "<th>Select your district : </th><td><input list='Districts' name='districtS' required>";
           echo    "<datalist id='Districts'>";
                 // <?php
                 // if(!isset($_POST["districtS"])){
@@ -71,7 +71,7 @@ echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
                   echo "<form method='post' action ='cropsInfo.php'";
                       echo  "<tr>" ;
                   echo "<center><p>You have selected $dist District</p></center>";
-                  echo "<table><tr><th>Select your Sub District:</th><td><input list='subDistricts' name='subDistrict'>";
+                  echo "<table><tr><th>Select your Sub District:</th><td><input list='subDistricts' name='subDistrict' required>";
                   echo "<datalist id='subDistricts'>";
                   $sql_subDistrict="SELECT DISTINCT `sub_district` FROM `major_crops` WHERE `district` LIKE '$dist'";
                   $result = $connect->query($sql_subDistrict);
@@ -80,7 +80,7 @@ echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
                   echo "</datalist></td></tr>";
                   echo "<tr><td colspan='2'><center><button class='navigation-login' type='Submit' name='subdistrict_submit' >Proceed to find crops</button></center></td></tr>";
                   echo "</table>";
-                }
+				}
                 ?>
 
     </form>

@@ -44,7 +44,7 @@ include 'connect.php' ;
               <table align="center">
                 <tr></tr>
                 <tr>
-                  <th>Select your district : </th><td><input list="Districts" name="districtStore">
+                  <th>Select your district : </th><td><input list="Districts" name="districtStore" required>
                     <datalist id="Districts">
                       <?php
                         include 'connect.php' ;

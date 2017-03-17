@@ -97,6 +97,7 @@
                 $result1 = $connect->query($sql_Crops);
                 while($row1 = $result1->fetch_assoc()){
                   echo "<p><b>Info. :</b>".$row1['info']."</p>";
+                //  echo "<p><b>Info. :</b>".$row1['info']."</p>";
                   echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
                   echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
                 }
