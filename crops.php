@@ -76,7 +76,7 @@ echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
                   $sql_subDistrict="SELECT DISTINCT `sub_district` FROM `major_crops` WHERE `district` LIKE '$dist'";
                   $result = $connect->query($sql_subDistrict);
                   while($row = $result->fetch_assoc()){
-                  echo "<option value=".$row['sub_district'].">";}
+                  echo "<option value='".$row['sub_district']."'>";}
                   echo "</datalist></td></tr>";
                   echo "<tr><td colspan='2'><center><button class='navigation-login' type='Submit' name='subdistrict_submit' >Proceed to find crops</button></center></td></tr>";
                   echo "</table>";
