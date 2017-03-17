@@ -5,7 +5,7 @@ include 'connect.php' ;
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>Jai Kisan - Home</title>
+  <title>JK - Major Crops & Markets</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
@@ -68,7 +68,7 @@ echo "</td></tr>" ;
                 if(isset($_POST["districtS"])){
 echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
                   $dist = $_POST["districtS"] ;
-                  echo "<form method='post' action =''";
+                  echo "<form method='post' action ='cropsInfo.php'";
                       echo  "<tr>" ;
                   echo "<center><p>You have selected $dist District</p></center>";
                   echo "<table><tr><th>Select your Sub District:</th><td><input list='subDistricts' name='subDistrict'>";
@@ -110,7 +110,7 @@ echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
           <h3 class="h3">Customer support</h3>
           <ul class="footer-list">
             <li>Chat with us</li>
-            <li>+91 2453 352</li>
+            <li>+91 86930 06986</li>
             <li>E-mail us</li>
             <li>subtestadd@gmail.com</li>
           </ul>

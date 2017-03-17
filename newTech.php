@@ -5,7 +5,7 @@ include 'connect.php' ;
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>Jai Kisan - Home</title>
+  <title>JK - New Technology</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
@@ -87,7 +87,7 @@ Products:<br>Eruvaka Technologies, to help farmers monitor aquaculture ponds, de
 Products:<br>Launched to aid farmers, Skymet’s weather website offers services such as weather forecast, crop insurance and agri-risk management. Prediction of weather conditions can help prepare a farmers for a drought or heavy unseasonal rainfall and help them take appropriate preventive measures, they say and claim to accurately measure and predict yield at the village level for any crop.
 </p>
           </div>
-		         
+
 		    <div>
             <h2 class="text"><a href="https://www.ekgaon.com/index.php">7. Ekgaon </a></h2><br>
 			<img src="7.jpg" alt="7. Ekgaon" style="vertical-align:middle" >
@@ -98,7 +98,7 @@ Products:<br>Financial: A mobile phone enabled financial services delivery platf
 <br>Citizen: The web and mobile applications help citizens monitor the delivery of government programmes and services entitled to them.
 </p>
           </div>
-		       
+
 		    <div>
             <h2 class="text"><a href="http://www.digitalgreen.org/">8. Digital Green</a></h2><br>
 			<img src="8.jpg" alt="8. Digital Green" style="vertical-align:middle" >
@@ -108,7 +108,7 @@ Products:<br>It uses technology-enabled behaviour change communication that is c
 <br>Two social online games Wonder Village and Farmer Book: In the games, players simulate a village economy and relate with actual farmers that Digital Green works with, on the field. The players are placed in a resource-constrained setting in which they have to complete quests such as set up paddy and maize farms and supply raw materials to the farmers’ markets.
 </p>
           </div>
-		        
+
 		    <div>
             <h2 class="text"><a href="http://www.frontalrain.com/">9. FrontalRain Technologies</a></h2><br>
 			<img src="9.png" alt="9. FrontalRain Technologies" style="vertical-align:middle" >
@@ -117,7 +117,7 @@ Products:<br>It uses technology-enabled behaviour change communication that is c
 Products:<br>The company’s offering Rain+, according to their website, is a comprehensive suite of products on the cloud for food and agribusinesses. Rain+ can help companies at every stage of the value chain starting from growing, processing, logistics, wholesale trade, retail trade and exports. This technology, accessible through desktop, tablet and mobile devices, is used by companies dealing with commodities like spices, herbs, basmati rice, seeds, animal feed, sea food, dairy and edible oil.
 </p>
           </div>
-		        
+
 		    <div>
             <h2 class="text"><a href="http://agrostar.in/">10. Agrostar </a></h2><br>
 			<img src="10.jpg" alt="10. Agrostar " style="vertical-align:middle" >
@@ -126,7 +126,7 @@ Products:<br>The company’s offering Rain+, according to their website, is a co
 Products:<br>AgroStar enables farmers to procure a range of agricultural goods such as seeds, crop nutrition, crop protection and agri-hardware products by simply giving a missed call on the company’s 1800 number or through their mobile app to eliminate unavailability of products, substandard products, duplication and adulteration.
 </p>
           </div></center>
-        
+
 		</div>
       </div>
     </div>
@@ -137,14 +137,14 @@ Products:<br>AgroStar enables farmers to procure a range of agricultural goods s
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h2 class="h2">About us</h2>
+          <h3 class="h3">About us</h3>
           <ul class="footer-list">
             <li><a href="#">Our story</a></li>
             <li><a href="#">Other</a></li>
           </ul>
         </div>
         <div class="col-md-3">
-          <h2 class="h2">Partners</h2>
+          <h3 class="h3">Partners</h3>
           <ul class="footer-list">
             <li><a href="https://github.com/GK4444">Gaurav Kavhar</a></li>
             <li><a href="https://github.com/NiC24">Nihal Chirayath</a></li>
@@ -152,16 +152,16 @@ Products:<br>AgroStar enables farmers to procure a range of agricultural goods s
           </ul>
         </div>
         <div class="col-md-3">
-          <h2 class="h2">Customer support</h2>
+          <h3 class="h3">Customer support</h3>
           <ul class="footer-list">
             <li>Chat with us</li>
-            <li>+91 2453 352</li>
+            <li>+91 86930 06986</li>
             <li>E-mail us</li>
             <li>subtestadd@gmail.com</li>
           </ul>
         </div>
         <div class="col-md-3">
-          <h2 class="h2">Socials</h2>
+          <h3 class="h3">Socials</h3>
           <ul class="footer-list footer-list-inline">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>

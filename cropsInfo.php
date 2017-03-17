@@ -1,9 +1,8 @@
-
 <html>
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>JK - Storage Spaces Info.</title>
+  <title>JK-Crops Information</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
@@ -37,20 +36,72 @@
       <div class="row"> -->
 <?php
   include 'connect.php' ;
-  $district = $_POST['districtStore'];
-  $sql_storageData="SELECT * FROM `storgae_space` WHERE `district` LIKE '$district'";
-  echo "<h1 class='text-center head red'>Storage Spaces at ".$district."</h1><br>";
+  $subdistrict = $_POST['subDistrict'];
+  $sql_majorCrops="SELECT * FROM `major_crops` WHERE `sub_district` LIKE '$subdistrict'";
+  echo "<h1 class='text-center head red'>Major Crops at ".$subdistrict." are :</h1><br>";
   echo "<div class='row'>";
-  $result = $connect->query($sql_storageData);
+  $result = $connect->query($sql_majorCrops);
   while($row = $result->fetch_assoc()){
-
+//major crop 1
     echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
-    echo "<p><b>Address. :</b>".$row["address"]."</p>";
-    echo "<p><b>Capacity. :</b>".$row["capacity"]."</p>";
-    echo "<p><b>Sector. :</b>".$row["sector"]."</p>";
-    echo "<p><b>Product Stored. :</b>".$row["product_stored"]."</p>";
+    echo "<p><b>Crop Name. :</b>".$row["m1"]."</p>";
+    $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m1]'";
+    $result1 = $connect->query($sql_Crops);
+    while($row1 = $result1->fetch_assoc()){
+      echo "<p><b>Info. :</b>".$row1['info']."</p>";
+      echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
+      echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+    }
     echo "<hr>";
     echo "</div></div>";
+//Major crop 2
+    echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
+    echo "<p><b>Crop Name. :</b>".$row["m2"]."</p>";
+    $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m2]'";
+    $result1 = $connect->query($sql_Crops);
+    while($row1 = $result1->fetch_assoc()){
+      echo "<p><b>Info. :</b>".$row1['info']."</p>";
+      echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
+      echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+    }
+    echo "<hr>";
+    echo "</div></div>";
+    //Major crop 3
+        echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
+        echo "<p><b>Crop Name. :</b>".$row["m3"]."</p>";
+        $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m3]'";
+        $result1 = $connect->query($sql_Crops);
+        while($row1 = $result1->fetch_assoc()){
+          echo "<p><b>Info. :</b>".$row1['info']."</p>";
+          echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
+          echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+        }
+        echo "<hr>";
+        echo "</div></div>";
+        //Major crop 4
+            echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
+            echo "<p><b>Crop Name. :</b>".$row["m4"]."</p>";
+            $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m4]'";
+            $result1 = $connect->query($sql_Crops);
+            while($row1 = $result1->fetch_assoc()){
+              echo "<p><b>Info. :</b>".$row1['info']."</p>";
+              echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
+              echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+            }
+            echo "<hr>";
+            echo "</div></div>";
+            //Major crop 5
+                echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
+                echo "<p><b>Crop Name. :</b>".$row["m5"]."</p>";
+                $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m5]'";
+                $result1 = $connect->query($sql_Crops);
+                while($row1 = $result1->fetch_assoc()){
+                  echo "<p><b>Info. :</b>".$row1['info']."</p>";
+                  echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
+                  echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+                }
+                echo "<hr>";
+                echo "</div></div>";
   }
   ?>
 </div>
@@ -110,11 +161,11 @@
     <h3>Menu</h3>
     <ul class="navigation-menu">
       <!-- //Topic title here -->
-      <li>Your are at <a href="Storage.php" class="active">Storage Spaces </a>-> <?php echo $_POST['districtStore']; ?></li>
+      <li>Your are at <a href="crops.php" class="active">Major Crops & Markets</a>-> <?php echo $_POST['subDistrict']; ?></li>
       <!-- // other Pages below -->
       <li><a href="index.php"><i class="orange fa fa-circle"></i>Home</a></li>
       <li><a href = "farmerrights.php"><i class="red fa fa-circle"></i>Farmer's Rights</a></li>
-      <li><a href="crops.php"><i class="beige fa fa-circle"></i>Major Crops & Markets</a></li>
+      <li><a href="Storage.php"><i class="beige fa fa-circle"></i>Storage Spaces</a></li>
       <li><a href="newTech.php"><i class="blue fa fa-circle"></i>New Technology</a></li>
     </ul>
     <h3>More</h3>
