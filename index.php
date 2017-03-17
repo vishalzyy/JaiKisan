@@ -5,7 +5,7 @@ include 'connect.php' ;
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>JK - Home</title>
+  <title>Jai Kisan-Home</title>
 //Fork of an original work by Robin Savemark (http://codepen.io/robinsavemark/pen/qOJgPZ)
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
@@ -94,6 +94,7 @@ include 'connect.php' ;
 <b>Main Objective</b>: To conserve and develop indigenous bovine breeds.<br>
 Rashtriya Gokul Mission aims to conserve and develop indigenous breeds in a focused and scientific manner. It is a focussed project under National Programme for Bovine Breeding and Dairy Development, with an outlay of Rs 500 crore during the 12th Five Year Plan.
 <br><b><a href="http://dahd.nic.in">Click here for more info</a></b></p>
+
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
@@ -104,6 +105,7 @@ Rashtriya Gokul Mission aims to conserve and develop indigenous breeds in a focu
 <b>Main Objective</b>: To help farmers to improve productivity from their farms by letting them know about nutrient/fertilizer requirements for their farms.<br>
 The soil health card studies and reviews the health of soil or rather we can say a complete evaluation of the quality of soil right from its functional characteristics, to water and nutrients content and other biological properties. It will also contain corrective measures that a farmer should adopt to obtain a better yield.
 <br><b><a href="http://www.soilhealth.dac.gov.in">Click here for more info</a></b></p>
+
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
