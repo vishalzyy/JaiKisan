@@ -174,10 +174,9 @@ Kisan Vikas Patra is an investment scheme wherein the invested money will get do
 			</ul>
 			<h3>More</h3>
 			<ul class="navigation-menu">
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Info</a></li>
-				<li><a href="#">Customer Service</a></li>
+				<li><a href="aboutUs.php">About Us</a></li>
+				<li><a href="aboutUs.php">Contact</a></li>
+				<li><a href="aboutUs.php">Info</a></li>
 			</ul>
 		</div>
 	</div>
