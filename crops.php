@@ -5,7 +5,7 @@ include 'connect.php' ;
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="icon.png" />
-  <title>JK - Major Crops & Markets</title>
+  <title>Jai Kisan-Major Crops & Markets</title>
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
