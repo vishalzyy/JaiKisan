@@ -57,7 +57,7 @@
 </div>
 </div>
 <br>
-<p><b><center>For adding your storage space to the list you can mail us @ subtestadd@gmail.com or call us at +91 86930 06986.</center></b></p>
+<p><b><center>For adding your storage space to the list you can mail us at subtestadd@gmail.com or call us at +91 86930 06986.</center></b></p>
 <br>
 <br>
 <br>
