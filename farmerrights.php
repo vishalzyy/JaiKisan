@@ -175,7 +175,7 @@ individual farmers. The PPVFR Rules are not very explicit to be helpful to farme
 this respect. Intensive capacity building to farmers is important for accessing legitimate
 compensation and minimising the frivolous claims.
 
-<h3>Farmer's Right to receive Compensation for Undisclosed use of ndisclosed use of
+<h3>Farmer's Right to receive Compensation for Undisclosed use of
 Traditional Varieties:-</h3>
 It was earlier stated that the cause of benefit sharing arises from a declaration made
 by the breeder that the pedigree of a new variety has certain traditional varieties or

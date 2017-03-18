@@ -52,7 +52,7 @@ function googleTranslateElementInit() {
     echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
     echo "<p><b>Address. :</b>".$row["address"]."</p>";
     echo "<p><b>Contact. :</b>".$row["Contact"]."</p>";
-    echo "<p><b>Capacity. :</b>".$row["capacity"]."</p>";
+    echo "<p><b>Capacity. :</b>".$row["capacity"]." Metric Tons</p>";
     echo "<p><b>Sector. :</b>".$row["sector"]."</p>";
     echo "<p><b>Product Stored. :</b>".$row["product_stored"]."</p>";
     echo "<hr>";
