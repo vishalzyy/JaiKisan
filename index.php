@@ -129,8 +129,8 @@ Kisan Vikas Patra is an investment scheme wherein the invested money will get do
 					<div class="col-md-3">
 						<h3 class="h3">About us</h3>
 						<ul class="footer-list">
-							<li><a href="#">Our story</a></li>
-							<li><a href="#">Other</a></li>
+							<li><a href="aboutUs.php">Our story</a></li>
+							<!--li><a href="#">Other</a></li-->
 						</ul>
 					</div>
 					<div class="col-md-3">
@@ -151,11 +151,11 @@ Kisan Vikas Patra is an investment scheme wherein the invested money will get do
 						</ul>
 					</div>
 					<div class="col-md-3">
-						<h3 class="h3">Socials</h3>
+						<!--<h3 class="h3">Socials</h3>
 						<ul class="footer-list footer-list-inline">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
 						</ul>
 					</div>
 				</div>
@@ -177,8 +177,8 @@ Kisan Vikas Patra is an investment scheme wherein the invested money will get do
 			<h3>More</h3>
 			<ul class="navigation-menu">
 				<li><a href="aboutUs.php">About Us</a></li>
-				<li><a href="aboutUs.php">Contact</a></li>
-				<li><a href="aboutUs.php">Info</a></li>
+				<!--<li><a href="aboutUs.php">Contact</a></li>
+				<li><a href="aboutUs.php">Info</a></li>-->
 			</ul>
 		</div>
 	</div>

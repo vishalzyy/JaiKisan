@@ -45,7 +45,7 @@ include 'connect.php' ;
         </div>
         <br>
       <div class="row">
-        <center><h2>We are ...</h2></center>
+        <center><h2>Members of the Team:-</h2></center>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="product-box">
             <h3 class="text-center">Gaurav S. Kavhar</h3>

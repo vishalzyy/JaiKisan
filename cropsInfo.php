@@ -143,11 +143,11 @@
           </ul>
         </div>
         <div class="col-md-3">
-          <h3 class="h3">Socials</h3>
+          <!--<h3 class="h3">Socials</h3>
           <ul class="footer-list footer-list-inline">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
           </ul>
         </div>
       </div>
@@ -171,10 +171,10 @@
     </ul>
     <h3>More</h3>
     <ul class="navigation-menu">
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="aboutUs.php">About Us</a></li>
+      <!--<li><a href="aboutUs.php">Contact</a></li>
       <li><a href="#">Info</a></li>
-      <li><a href="#">Customer Service</a></li>
+      <li><a href="#">Customer Service</a></li>-->
     </ul>
   </div>
 </div>
