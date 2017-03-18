@@ -121,8 +121,8 @@
         <div class="col-md-3">
           <h3 class="h3">About us</h3>
           <ul class="footer-list">
-            <li><a href="#">Our story</a></li>
-            <li><a href="#">Other</a></li>
+            <li><a href="aboutUs.php">Our story</a></li>
+            <!--li><a href="#">Other</a></li-->
           </ul>
         </div>
         <div class="col-md-3">
