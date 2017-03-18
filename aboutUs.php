@@ -62,8 +62,8 @@ include 'connect.php' ;
             <h3 class="text-center">Vishal Mahaveer Prajapat</h3>
             <br>
             <center><img src="Vishal.jpeg" class="user"></center><br>
-            <p>Vishal Bhai is a hacker trained by professionals to defeat even the best of them. He spends his days on his computer spying on potential bhabhiji with their own webcams. He knows everything about you and as you are reading he might be looking into who you are !(And dont tell anyone he is even a part of secret society of Illuminati which controls the whole world)</p>
-          </div>
+            <p>Hey i am Vishal Prajapat,I am currently studying engineering in RAIT.My work is to help build this website and make it functional and user friendly.Besides building websites i have interest in field of networking and i like playing computer games.</p>
+            </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="product-box">
