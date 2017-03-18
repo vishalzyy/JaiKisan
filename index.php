@@ -74,7 +74,7 @@ function googleTranslateElementInit() {
 						<li style="background-image: url('dfsgs.jpg');">
 							<div class="accordion-overlay"></div>
 
-							<h3><a href="newTech.php">New Technolgy</h3>
+							<h3><a href="newTech.php">New Technology</h3>
 							<section class="hidden-xs">
 								<article>
 									<p><a href="newTech.php">Find technology which help you increase productivity and minimize your effort.</a></p>
