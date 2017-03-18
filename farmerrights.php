@@ -240,7 +240,7 @@ from seed companies. This highlights the importance of legal literacy to farmers
 this Act, not only to prevent infringement proceedings against them, but also to
 create capability to access the rights provided to them.
 <br><br><br>
-If you have any queries/complaints and want to conact the government regarding the matter.<a href="http://farmer.gov.in/feedback/Default.aspx" target="_blank">Click here.</a>
+If you have any queries/complaints and want to contact the government regarding the matter.<b><a href="http://farmer.gov.in/feedback/Default.aspx" target="_blank">Click here.</a></b>
           </div>
         </div>
       </div>
