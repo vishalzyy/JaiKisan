@@ -38,68 +38,74 @@
   include 'connect.php' ;
   $subdistrict = $_POST['subDistrict'];
   $sql_majorCrops="SELECT * FROM `major_crops` WHERE `sub_district` LIKE '$subdistrict'";
-  echo "<h1 class='text-center head red'>Major Crops at ".$subdistrict." are :</h1><br>";
+  echo "<h1 class='text-center head red'><b>Major Crops at ".$subdistrict." are :</b></h1><br>";
   echo "<div class='row'>";
   $result = $connect->query($sql_majorCrops);
   while($row = $result->fetch_assoc()){
 //major crop 1
     echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
-    echo "<p><b>Crop Name. :</b>".$row["m1"]."</p>";
+    echo "<p><b>Crop Name. :".$row["m1"]."</b></p>";
     $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m1]'";
     $result1 = $connect->query($sql_Crops);
     while($row1 = $result1->fetch_assoc()){
-      echo "<p><b>Info. :</b>".$row1['info']."</p>";
       echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
       echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+      echo "<p><b>Info. :</b>".$row1['info']."</p>";
+
     }
     echo "<hr>";
     echo "</div></div>";
 //Major crop 2
     echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
-    echo "<p><b>Crop Name. :</b>".$row["m2"]."</p>";
+    echo "<p><b>Crop Name. :".$row["m2"]."</b></p>";
     $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m2]'";
     $result1 = $connect->query($sql_Crops);
     while($row1 = $result1->fetch_assoc()){
-      echo "<p><b>Info. :</b>".$row1['info']."</p>";
       echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
       echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+      echo "<p><b>Info. :</b>".$row1['info']."</p>";
+
+
     }
     echo "<hr>";
     echo "</div></div>";
     //Major crop 3
         echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
-        echo "<p><b>Crop Name. :</b>".$row["m3"]."</p>";
+        echo "<p><b>Crop Name. :".$row["m3"]."</b></p>";
         $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m3]'";
         $result1 = $connect->query($sql_Crops);
         while($row1 = $result1->fetch_assoc()){
-          echo "<p><b>Info. :</b>".$row1['info']."</p>";
           echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
           echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+          echo "<p><b>Info. :</b>".$row1['info']."</p>";
+
         }
         echo "<hr>";
         echo "</div></div>";
         //Major crop 4
             echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
-            echo "<p><b>Crop Name. :</b>".$row["m4"]."</p>";
+            echo "<p><b>Crop Name. :".$row["m4"]."</b></p>";
             $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m4]'";
             $result1 = $connect->query($sql_Crops);
             while($row1 = $result1->fetch_assoc()){
-              echo "<p><b>Info. :</b>".$row1['info']."</p>";
               echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
               echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+              echo "<p><b>Info. :</b>".$row1['info']."</p>";
+
             }
             echo "<hr>";
             echo "</div></div>";
             //Major crop 5
                 echo "<div class='col-md-4 col-sm-6 col-xs-12'> <div class='product-box'>";
-                echo "<p><b>Crop Name. :</b>".$row["m5"]."</p>";
+                echo "<p><b>Crop Name. :".$row["m5"]."</b></p>";
                 $sql_Crops="SELECT * FROM `crops` WHERE `crop` LIKE '$row[m5]'";
                 $result1 = $connect->query($sql_Crops);
                 while($row1 = $result1->fetch_assoc()){
-                  echo "<p><b>Info. :</b>".$row1['info']."</p>";
-                //  echo "<p><b>Info. :</b>".$row1['info']."</p>";
                   echo "<p><b>Minimum Selling Price[MSP]. :</b>".$row1['msp']." ₹ per Quintal</p>";
                   echo "<p><b>Maximum Retail Price[MRP]. :</b>".$row1['mrp']." ₹ per Quintal</p>";
+                  echo "<p><b>Info. :</b>".$row1['info']."</p>";
+                //  echo "<p><b>Info. :</b>".$row1['info']."</p>";
+
                 }
                 echo "<hr>";
                 echo "</div></div>";
