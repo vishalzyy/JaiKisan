@@ -239,6 +239,8 @@ tradition-bound Indian farmers and to discourage petty legal harassment to farme
 from seed companies. This highlights the importance of legal literacy to farmers on
 this Act, not only to prevent infringement proceedings against them, but also to
 create capability to access the rights provided to them.
+<br><br><br>
+If you have any queries/complaints and want to conact the government regarding the matter.<a href="http://farmer.gov.in/feedback/Default.aspx" target="_blank">Click here.</a>
           </div>
         </div>
       </div>
