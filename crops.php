@@ -86,7 +86,7 @@ echo "<h1 class='text-center head red'>Select your Sub District here</h1>";
     </form>
   </div>
 </div>
-
+<br><br><br><br><br>
 <div class="footer">
   <footer class="footer-inner">
     <div class="container">

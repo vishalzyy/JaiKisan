@@ -39,7 +39,7 @@ include 'connect.php' ;
     <div class="container">
       <h1 class="text-center head red">New Technologies in Farming</h1><br>
          <center> <div>
-            <h2 class="text"><a href="http://www.barrix.in/">1. Barrix Ago Sciences</a></h2><br>
+            <h2 class="text"><a href="http://www.barrix.in/" target="_blank">1. Barrix Ago Sciences</a></h2><br>
 			<center><img src="1.jpg" alt="Barrix Ago Sciences" style="vertical-align:middle" ></center>
             <p><center>The Bangalore-based startup offers eco-friendly crop protection methods after much research on products that support organic farming to increase crop produce and quality with minimal expenditure.
 <br><br>
@@ -48,7 +48,7 @@ Fly pest sticky sheet: Barrix uses bright yellow and blue coloured recyclable sh
 </center></p>
           </div>
 		   <div>
-           <center> <h2 class="text"><a href="http://www.anulekh.com/">2. Anulek Agrotech</a></h2><br></center>
+           <center> <h2 class="text"><a href="http://www.anulekh.com/" target="_blank">2. Anulek Agrotech</a></h2><br></center>
 			<img src="2.jpg" alt="Anulek Agrotech" style="vertical-align:middle" >
             <p><center>Set up by Mumbai-based entrepreneurs, Anulekh focuses on increasing soil fertility to achieve higher agricultural productivity and crop yield with lower resource use.
 <br><br>
@@ -56,7 +56,7 @@ Products:<br>BIOSAT: BIOSAT (Biochar based organic Soil Amendment Technology), a
 </center></p>
           </div>
 		  <div>
-            <h2 class="text"><a href="http://mitraweb.in/">3. Mitra</a></h2><br>
+            <h2 class="text"><a href="http://mitraweb.in/" target="_blank">3. Mitra</a></h2><br>
 			<img src="3.jpg" alt="Mitra" style="vertical-align:middle" >
             <br><p>A Nashik-based startup, MITRA (Machines, Information, Technology, Resources for Agriculture) aims to improve mechanization at horticulture farms with the use of R&D and high quality farm equipment.
 <br><br>
@@ -64,7 +64,7 @@ Products:<br>Air blast sprayers: Developed for fruits and vegetables in general,
 </p>
           </div>
 		    <div>
-            <h2 class="text"><a href="http://cropin.co.in/">4. CropIn Technology Solutions</a></h2><br>
+            <h2 class="text"><a href="http://cropin.co.in/" target="_blank">4. CropIn Technology Solutions</a></h2><br>
 			<img src="4.png" alt="CropIn Technology Solutions" style="vertical-align:middle" >
             <br><p>A farming technology solutions startup founded by a Bangalore software engineer, it provides agri businesses the technology and expertise to create a smarter and safer food supply for consumers around the world.
 <br><br>
@@ -72,7 +72,7 @@ Products:<br>Air blast sprayers: Developed for fruits and vegetables in general,
 </p>
           </div>
 		     	    <div>
-            <h2 class="text"><a href="http://www.eruvaka.com/">5. Eruvaka Technologies</a></h2><br>
+            <h2 class="text"><a href="http://www.eruvaka.com/" target="_blank">5. Eruvaka Technologies</a></h2><br>
 			<img src="5.jpg" alt="5. Eruvaka Technologies" style="vertical-align:middle" >
             <br><p>An organisation based in Vijayawada, Andhra Pradesh, its mission is to accelerate the use of technology in aquaculture, an area where farmers face problems due to unavailability of adequate technology to measure and control water health.
 			<br><br>
@@ -80,7 +80,7 @@ Products:<br>Eruvaka Technologies, to help farmers monitor aquaculture ponds, de
 </p>
           </div>
 		    <div>
-            <h2 class="text"><a href="http://www.skymetweather.com/corporate/">6. Skymet</a></h2><br>
+            <h2 class="text"><a href="http://www.skymetweather.com/corporate/" target="_blank">6. Skymet</a></h2><br>
 			<img src="6.png" alt="6. Skymet" style="vertical-align:middle" >
             <br><p>Skymet is India’s largest weather monitoring and agri-risk solutions company. According to their website, they are the experts in measuring, predicting, and limiting climate risk to agriculture, thus reducing losses incurred due to bad weather conditions.
 			<br><br>
@@ -89,7 +89,7 @@ Products:<br>Launched to aid farmers, Skymet’s weather website offers services
           </div>
 
 		    <div>
-            <h2 class="text"><a href="https://www.ekgaon.com/index.php">7. Ekgaon </a></h2><br>
+            <h2 class="text"><a href="https://www.ekgaon.com/index.php" target="_blank">7. Ekgaon </a></h2><br>
 			<img src="7.jpg" alt="7. Ekgaon" style="vertical-align:middle" >
             <br><p>A Gujarat-based venture started in 2001, Ekgaon Technologies is an IT based network integrator that provides a technology platform and offers a range of services to farmers in rural areas including financial, agricultural inputs and government assistance.
 			<br><br>
@@ -100,7 +100,7 @@ Products:<br>Financial: A mobile phone enabled financial services delivery platf
           </div>
 
 		    <div>
-            <h2 class="text"><a href="http://www.digitalgreen.org/">8. Digital Green</a></h2><br>
+            <h2 class="text"><a href="http://www.digitalgreen.org/" target="_blank">8. Digital Green</a></h2><br>
 			<img src="8.jpg" alt="8. Digital Green" style="vertical-align:middle" >
             <br><p>development organisation that focuses on training farmers to make and show short videos where they record their problems, share solutions and highlight success stories as community engagement to improve lives of rural communities across South Asia and Sub-Saharan Africa.
 			<br><br>
@@ -110,7 +110,7 @@ Products:<br>It uses technology-enabled behaviour change communication that is c
           </div>
 
 		    <div>
-            <h2 class="text"><a href="http://www.frontalrain.com/">9. FrontalRain Technologies</a></h2><br>
+            <h2 class="text"><a href="http://www.frontalrain.com/" target="_blank">9. FrontalRain Technologies</a></h2><br>
 			<img src="9.png" alt="9. FrontalRain Technologies" style="vertical-align:middle" >
             <br><p>The Bangalore-based agri-tech startup seeks to deliver affordable advanced technology solutions for emerging companies and take technology to remote corners of the country.
 			<br><br>
@@ -119,7 +119,7 @@ Products:<br>The company’s offering Rain+, according to their website, is a co
           </div>
 
 		    <div>
-            <h2 class="text"><a href="http://agrostar.in/">10. Agrostar </a></h2><br>
+            <h2 class="text"><a href="http://agrostar.in/" target="_blank">10. Agrostar </a></h2><br>
 			<img src="10.jpg" alt="10. Agrostar " style="vertical-align:middle" >
             <br><p>A Pune-based ‘direct to farmer’ m-commerce platform, Agrostar strives to provide quality agro inputs at the farmers’ doorstep.
 			<br><br>
