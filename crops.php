@@ -42,7 +42,7 @@ include 'connect.php' ;
 
 if(!isset($_POST["districtS"])){
   echo "<h1 class='text-center head red'>Select your District here</h1>";
-    echo "<form name='selection' method='post' action ='' >";
+    echo "<form name='selection' method='post' action=''>";
       echo  "<table align='center'>";
         echo "<tr></tr><tr>";
         echo    "<th>Select your district : </th><td><input list='Districts' name='districtS' required>";
