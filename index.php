@@ -126,6 +126,7 @@ Kisan Vikas Patra is an investment scheme wherein the invested money will get do
 					</div>
 				</div>
 			</div>
+      <center>For more schemes.<b><a href="http://seednet.gov.in/Material/Prog-Schemes.htm" target="_blank">Click here.</a></b></center><br><br>
 
 	<div class="footer">
 		<footer class="footer-inner">
